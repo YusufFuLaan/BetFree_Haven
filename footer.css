@@ -1,0 +1,46 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Roboto", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+html{
+font-size: 62.5%;
+}
+
+footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+min-width: 100vw;
+min-height: 41.39vh;
+background: #3B4E68;
+}
+
+footer .box1 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100vw;
+height: 31vh;
+border: 5px solid red;
+}
+
+footer .box2 {
+width: 100vw;
+height: 10vh;
+border: 5px solid red;
+}
+
+footer .item{
+width:21.33vw;
+height:20.4vh;
+border: 5px solid red;
+}
