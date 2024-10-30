@@ -9,7 +9,7 @@ html{
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -56,7 +56,7 @@ footer .box1 .item .logo {
 
 footer .box1 .item h1 {
   font-size: 3rem;
-  width: 20rem;
+  width: 22rem;
   text-align: center;
   color: #feffff;
 }
@@ -189,7 +189,7 @@ footer .box2 .sub2 {
   }
 
   body {
-    font-family: "Roboto", serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -383,8 +383,7 @@ footer .box2 .sub2 {
   }
 
   body {
-    font-family: "Roboto", serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
