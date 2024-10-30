@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+.base-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 body {
   font-family: "Roboto", serif;
@@ -367,7 +371,7 @@ footer .box2 .sub2 {
 }
 
 /* MOBILE SCREEN */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   * {
     padding: 0;
     margin: 0;
