@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Inter", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
 }
 /*---------------------------------------------------------- Header-Style-------------------------------------------------------------- */
 
 .logoContainer {
-  padding: 2rem 0 2rem 5rem;
-  width: 34rem;
+  padding: 2.5rem 0 2.5rem 8rem;
+  width: 60rem;
 }
 
 .logoContainer img {
@@ -22,32 +32,32 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3rem;
-  padding: 0 7rem;
+  height: 5rem;
+  padding: 0 10rem;
   background-color: #3b4e68;
 }
 
 .numberContainer {
   display: flex;
   justify-content: space-between;
-  width: 12rem;
+  width: 16rem;
 }
 
 .numberContainer p {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 #search {
-  width: 15rem;
-  height: 1.8rem;
-  padding-left: 3.5rem;
-  border-radius: 1rem;
+  width: 20rem;
+  height: 3rem;
+  padding-left: 4rem;
+  border-radius: 2rem;
   border: none;
   background-image: url("Public/Assets/Icons/search.svg");
   background-repeat: no-repeat;
-  background-position: 1.5rem 0.4rem;
-  font-size: 1rem;
+  background-position: 1.5rem 0.5rem;
+  font-size: 1.4rem;
 }
 
 header > ul {
@@ -55,13 +65,12 @@ header > ul {
   justify-content: space-around;
   align-items: center;
   border: 1px solid black;
-  height: 3rem;
-  padding: 0 8rem;
+  height: 6rem;
+  padding: 0 12rem;
 }
 
 header > ul li {
-  list-style: none;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   font-weight: 480;
 }
 header > ul li a {
