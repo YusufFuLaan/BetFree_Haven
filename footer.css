@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -93,12 +93,6 @@ footer .box1 .sub2 {
   justify-content: space-between;
   align-items: baseline;
   flex-direction: column;
-<<<<<<< HEAD
-  width: 50rem;
-=======
-  width:25rem ;
->>>>>>> 83dde8718ea0701c6bcff4900b2084a62ade6d9e
-  height: 40rem;
 }
 
 footer .box1 .sub2a {
@@ -129,7 +123,7 @@ footer .box1 .sub2b {
 }
 
 footer .box1 .sub2b p {
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 footer .box1 .sub2b img {
@@ -184,7 +178,8 @@ footer .box2 .sub2 {
   word-spacing: 1rem;
 }
 
-TABLET SCREEN @media (max-width: 1024px) {
+/* TABLET SCREEN  */
+@media (max-width: 1024px) {
   * {
     padding: 0;
     margin: 0;
@@ -270,9 +265,6 @@ TABLET SCREEN @media (max-width: 1024px) {
   footer .box1 .sub2 h2 {
     font-size: 2rem;
     color: #feffff;
-  }
-
-  footer .box1 .sub2 {
   }
 
   footer .box1 .sub2a h2 {
@@ -465,9 +457,6 @@ TABLET SCREEN @media (max-width: 1024px) {
   footer .box1 .sub2 h2 {
     font-size: 1.5rem;
     color: #feffff;
-  }
-
-  footer .box1 .sub2 {
   }
 
   footer .box1 .sub2a h2 {
