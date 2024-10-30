@@ -31,9 +31,8 @@ footer .box1{
 display: flex;
 justify-content: space-around;
 align-items: start;
-height:25rem ;
+height:24rem ;
 width: 120rem;
-border: 1px solid red;
 }
 
 footer .box1 .sub{
@@ -71,13 +70,28 @@ footer .box2{
 display: flex;
 justify-content: space-between;
 align-items: center;
-border-top: 0.5rem solid #3B4E68;
+border-top: 0.1rem solid #b7c6db;
 width: 120rem;
 height: 5rem;
-border: 1px solid red;
 }
 
-footer .box2 .set {
+footer .box2 p{
+font-size: 1rem;
+color: #FEFFFF;
+}
+
+footer .box2 .set1 {
+display: flex;
+justify-content: start;
+align-items: center;
 width: 30rem;
-border: 1px solid red;
+height: 3rem;
+}
+
+footer .box2 .set2 {
+display: flex;
+justify-content: end;
+align-items: center;
+width: 30rem;
+height: 3rem;
 }
