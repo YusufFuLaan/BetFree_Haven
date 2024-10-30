@@ -6,12 +6,7 @@
 
 body {
   font-family: "Roboto", serif;
-  font-weight: 400;
   font-style: normal;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 footer {
@@ -51,40 +46,41 @@ footer .box1 .item .logo {
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 18vw;
-  height: 20vh;
+  width: 20vw;
+  height: 25vh;
 }
 
 footer .box1 .item h1 {
-  font-size: 9rem;
-  width: 12vw;
+  font-size: 8rem;
+  width: 20vw;
+  text-align: center;
   color: #feffff;
 }
 
 footer .box1 .item h2 {
-  font-size: 9rem;
+  font-size: 6rem;
   width: 12vw;
   color: #feffff;
 }
 
 footer .box1 .item p {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #feffff;
   font-weight: 300;
 }
 
-footer .box1 .sub2 h1 {
-  font-size: 7rem;
+footer .box1 .sub2 h2 {
+  font-size: 6rem;
   color: #feffff;
 }
 
-footer .box1 .sub2a h1 {
-  font-size: 7rem;
+footer .box1 .sub2a h2 {
+  font-size: 6rem;
   color: #feffff;
 }
 
-footer .box1 .sub2b h1 {
-  font-size: 7rem;
+footer .box1 .sub2b h2 {
+  font-size: 6rem;
   color: #feffff;
 }
 
@@ -138,7 +134,7 @@ footer .box1 .sub2b img:hover {
 footer .box1 .item a {
   color: #feffff;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   text-align: justify;
 }
@@ -162,7 +158,7 @@ footer .box2 .sub {
 }
 
 footer .box2 .sub p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #feffffcd;
 }
 
@@ -186,12 +182,7 @@ footer .box2 .sub2 {
 
   body {
     font-family: "Roboto", serif;
-    font-weight: 400;
     font-style: normal;
-  }
-
-  html {
-    font-size: 50%;
   }
 
   footer {
@@ -200,7 +191,7 @@ footer .box2 .sub2 {
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 120vh;
+    min-height: 130vh;
     background: #3b4e68;
   }
 
@@ -243,30 +234,30 @@ footer .box2 .sub2 {
     background-size: contain;
     background-repeat: no-repeat;
     width: 40vw;
-    height: 40vh;
+    height: 45vh;
   }
 
   footer .box1 .item h1 {
-    font-size: 5rem;
-    width: 30vw;
+    font-size: 2.5rem;
+    width: 40vw;
     text-align: center;
     color: #feffff;
   }
 
   footer .box1 .item h2 {
-    font-size: 4rem;
-    width: 20vw;
+    font-size: 3rem;
+    width: 30vw;
     color: #feffff;
   }
 
   footer .box1 .item p {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #feffff;
     font-weight: 400;
   }
 
   footer .box1 .sub2 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #feffff;
   }
 
@@ -274,12 +265,12 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .sub2a h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #feffff;
   }
 
   footer .box1 .sub2b h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #feffff;
   }
 
@@ -320,8 +311,8 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .sub2b img {
-    width: 5rem;
-    padding: 0.5rem;
+    width: 2rem;
+    padding: 0.2rem;
   }
 
   footer .box1 .sub2b img:hover {
@@ -334,7 +325,7 @@ footer .box2 .sub2 {
     color: #feffff;
     text-decoration: none;
     line-height: 2;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: justify;
   }
@@ -345,20 +336,23 @@ footer .box2 .sub2 {
 
   footer .box2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border-top: 0.1rem solid #feffff4a;
-    width: 90vw;
+    width: 80vw;
     height: 8vh;
   }
 
   footer .box2 .sub {
+    align-content: center;
+    text-align: center;
     width: 45vw;
     height: 7vh;
   }
 
   footer .box2 .sub p {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
+    word-spacing: 0;
     color: #feffffcd;
   }
 
@@ -368,7 +362,7 @@ footer .box2 .sub2 {
 
   footer .box2 .sub2 {
     align-content: center;
-    text-align: end;
+    text-align: center;
   }
 }
 
@@ -386,13 +380,9 @@ footer .box2 .sub2 {
     font-style: normal;
   }
 
-  html {
-    font-size: 50%;
-  }
-
   footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
@@ -443,8 +433,8 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .item h1 {
-    font-size: 3rem;
-    width: 40vw;
+    font-size: 2rem;
+    width: 50vw;
     text-align: center;
     color: #feffff;
   }
@@ -456,14 +446,14 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .item p {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     color: #feffff;
     line-height: 1.5;
     font-weight: 400;
   }
 
   footer .box1 .sub2 h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #feffff;
   }
 
@@ -471,12 +461,12 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .sub2a h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #feffff;
   }
 
   footer .box1 .sub2b h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #feffff;
   }
 
@@ -517,7 +507,7 @@ footer .box2 .sub2 {
   }
 
   footer .box1 .sub2b img {
-    width: 4rem;
+    width: 2rem;
     padding: 0.1rem;
   }
 
@@ -531,7 +521,7 @@ footer .box2 .sub2 {
     color: #feffff;
     text-decoration: none;
     line-height: 2;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     font-weight: 400;
     text-align: justify;
   }
@@ -542,22 +532,22 @@ footer .box2 .sub2 {
 
   footer .box2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     border-top: 0.1rem solid #feffff4a;
     width: 90vw;
-    height: 20vh;
+    height: 15vh;
   }
 
   footer .box2 .sub {
     width: 45vw;
-    height: 7vh;
+    height: 5vh;
   }
 
   footer .box2 .sub p {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     color: #feffffcd;
   }
 
@@ -568,6 +558,6 @@ footer .box2 .sub2 {
 
   footer .box2 .sub2 {
     align-content: center;
-    text-align: end;
+    text-align: center;
   }
 }
