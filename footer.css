@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .base-container {
-  max-width: 1200px;
+  max-width: 100vw;
   margin: 0 auto;
 }
 
@@ -28,8 +28,8 @@ footer .box1 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 100vw;
-  height: 41vh;
+  width: 315rem;
+  height: 50vh;
 }
 
 footer .box1 .item {
@@ -37,8 +37,8 @@ footer .box1 .item {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 22vw;
-  height: 35vh;
+  width: 60rem;
+  height: 60rem;
 }
 
 footer .box1 .item .logo {
@@ -50,20 +50,20 @@ footer .box1 .item .logo {
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 20vw;
-  height: 25vh;
+  width: 60rem;
+  height: 30rem;
 }
 
 footer .box1 .item h1 {
   font-size: 8rem;
-  width: 20vw;
+  width: 60rem;
   text-align: center;
   color: #feffff;
 }
 
 footer .box1 .item h2 {
   font-size: 6rem;
-  width: 12vw;
+  width: 50rem;
   color: #feffff;
 }
 
@@ -93,8 +93,8 @@ footer .box1 .sub2 {
   justify-content: space-between;
   align-items: baseline;
   flex-direction: column;
-  width: 15vw;
-  height: 25vh;
+  width:50rem ;
+  height: 40rem;
 }
 
 footer .box1 .sub2a {
@@ -102,17 +102,17 @@ footer .box1 .sub2a {
   justify-content: start;
   align-items: baseline;
   flex-direction: column;
-  width: 15vw;
-  height: 25vh;
+  width: 60rem;
+  height: 40rem;
 }
 
 footer .box1 .sub2a .sob {
-  width: 15vw;
   display: flex;
   justify-content: space-around;
   align-items: baseline;
   flex-direction: column;
-  height: 15vh;
+  height: 25rem;
+  width: 50rem;
 }
 
 footer .box1 .sub2b {
@@ -120,8 +120,8 @@ footer .box1 .sub2b {
   justify-content: space-between;
   align-items: baseline;
   flex-direction: column;
-  width: 15vw;
-  height: 14vh;
+  width: 50rem;
+  height: 25rem;
 }
 
 footer .box1 .sub2b img {
@@ -152,13 +152,13 @@ footer .box2 {
   justify-content: space-around;
   align-items: center;
   border-top: 0.5rem solid #feffff4a;
-  width: 100vw;
-  height: 8vh;
+  width: 320rem;
+  height: 10rem;
 }
 
 footer .box2 .sub {
-  width: 45vw;
-  height: 7vh;
+  width: 130rem;
+  height: 10rem;
 }
 
 footer .box2 .sub p {
