@@ -93,7 +93,7 @@ footer .box1 .sub2 {
   justify-content: space-between;
   align-items: baseline;
   flex-direction: column;
-  width:50rem ;
+  width: 50rem;
   height: 40rem;
 }
 
@@ -176,8 +176,7 @@ footer .box2 .sub2 {
   word-spacing: 1rem;
 }
 
-/* TABLET SCREEN */
-@media (max-width: 1024px) {
+TABLET SCREEN @media (max-width: 1024px) {
   * {
     padding: 0;
     margin: 0;
