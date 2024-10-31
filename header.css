@@ -64,7 +64,6 @@ header > ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
   height: 6rem;
   padding: 0 8rem;
 }
@@ -77,6 +76,7 @@ header > ul li {
 header > ul li a {
   text-decoration: none;
   color: #0a0a0a;
+  padding: 1.9rem 1rem;
 }
 
 header > ul li a:hover {
@@ -94,18 +94,23 @@ header > ul li a:hover {
 
 .header-dropdown-content {
   position: absolute;
+  display: none;
   top: 3.9rem;
   left: -1rem;
   width: 28rem;
-  border: 1px solid grey;
   z-index: 1;
 }
 
 .header-dropdown-content a {
   display: block;
-  padding: 1.5rem 1rem;
-  border: 1px solid black;
+  padding: 1rem;
+  border: 1px solid rgb(230, 230, 230);
 }
 .header-dropdown-content a:hover {
   padding-left: 3rem;
+  border-bottom: 1.2px solid #1590ff;
+}
+
+.header-dropdown:hover .header-dropdown-content {
+  display: block;
 }
