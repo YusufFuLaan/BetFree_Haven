@@ -124,12 +124,104 @@
   .header-dropdown-content a:hover {
     padding-left: 3rem;
     border-bottom: 1.2px solid #1590ff;
+    transition: 0.5s ease;
   }
   
   .header-dropdown:hover .header-dropdown-content {
     display: block;
   }
-  
+
+/* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
+  .container1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 120vh;
+    background-image: url('Public/Assets/Images/mentalHealth.svg');
+    background-size: cover;
+  }
+
+  .container1 .box{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 110rem;
+    height: 20rem;
+  }
+
+  .container1 .box p{
+  font-size: 2rem;
+  color: #ffffff;
+  padding-bottom: 1rem;
+  }
+
+  /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
+.container2{
+display: flex;
+position: relative;
+justify-content: center;
+align-items: start;
+overflow: visible;
+background: #ffffff;
+min-width: 100vw;
+min-height: 60vh;
+}
+
+.container2 .overlay{
+display: flex;
+position: absolute;
+top: -10rem;
+justify-content: space-around;
+width: 80rem;
+height: 40rem;
+z-index: 1;
+border: 1px solid red;
+}
+
+.container2 .box{
+width: 25rem;
+height: 40rem;
+margin-bottom: 5rem;
+box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+border: 1px solid red;
+}
+
+.container2 .sub{
+width: 25rem;
+height: 30rem;
+border: 1px solid rgb(93, 0, 255);
+}
+
+.container2 .sub1{
+background-image: url('Public/Assets/Images/VirtualMeeting.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container2 .sub2{
+background-image: url('Public/Assets/Images/in-personMeeting.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container2 .sob{
+display: flex;
+justify-content: end;
+align-items: center;
+background: #ffffff;
+width: 25rem;
+height: 10rem;
+}
+
+.container2 .sob p{
+font-size: 1.5rem;
+padding: 1rem;
+}
+
+
+
   /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
   @media (max-width: 768px) {
   }
