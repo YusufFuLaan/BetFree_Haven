@@ -40,12 +40,12 @@ li {
 .numberContainer {
   display: flex;
   justify-content: space-between;
-  width: 16rem;
+  width: 18rem;
 }
 
 .numberContainer p {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 #search {
