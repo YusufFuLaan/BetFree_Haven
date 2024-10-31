@@ -90,6 +90,7 @@ header > ul li a {
   text-decoration: none;
   color: #0a0a0a;
   padding: 1.9rem 1rem;
+  transition: 0.5s ease;
 }
 
 header > ul li a:hover {
@@ -134,7 +135,7 @@ header > ul li a:hover {
 @media (max-width: 768px) {
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
