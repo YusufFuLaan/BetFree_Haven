@@ -66,14 +66,46 @@ header > ul {
   align-items: center;
   border: 1px solid black;
   height: 6rem;
-  padding: 0 12rem;
+  padding: 0 8rem;
 }
 
 header > ul li {
   font-size: 1.6rem;
   font-weight: 480;
 }
+
 header > ul li a {
   text-decoration: none;
   color: #0a0a0a;
+}
+
+header > ul li a:hover {
+  color: #1590ff;
+}
+
+.fa-solid {
+  padding-left: 0.8rem;
+}
+
+.header-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.header-dropdown-content {
+  position: absolute;
+  top: 3.9rem;
+  left: -1rem;
+  width: 28rem;
+  border: 1px solid grey;
+  z-index: 1;
+}
+
+.header-dropdown-content a {
+  display: block;
+  padding: 1.5rem 1rem;
+  border: 1px solid black;
+}
+.header-dropdown-content a:hover {
+  padding-left: 3rem;
 }
