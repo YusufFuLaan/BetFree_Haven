@@ -27,14 +27,26 @@ li {
 .logoContainer img {
   width: 100%;
 }
+.subheaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: #3b4e68;
+}
+
+.menuContainer {
+  display: none;
+}
+
+.material-symbols-outlined {
+  color: #ffffff;
+}
 
 .contactContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 5rem;
-  padding: 0 10rem;
-  background-color: #3b4e68;
+  width: 80%;
 }
 
 .numberContainer {
@@ -122,10 +134,26 @@ header > ul li a:hover {
 @media (max-width: 768px) {
 }
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
   }
 
   .contactContainer {
@@ -133,15 +161,19 @@ header > ul li a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 6rem;
-    padding: 0.2rem 1rem;
-    background-color: #3b4e68;
+    width: 80%;
   }
 
   .numberContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     width: 13rem;
+    height: 3rem;
+  }
+
+  .numberContainer img {
+    width: 1.5rem;
   }
 
   .numberContainer p {
@@ -149,19 +181,15 @@ header > ul li a:hover {
     font-size: 1.2rem;
   }
 
-  .numberContainer img {
-    width: 1.5rem;
-  }
-
   #search {
     width: 16rem;
     height: 2rem;
     padding-left: 6rem;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
     border: none;
     background-image: url("Public/Assets/Icons/search.svg");
     background-repeat: no-repeat;
-    background-position: 1.5rem 0.3rem;
+    background-position: 1.5rem 0.5rem;
     background-size: 1.3rem;
     font-size: 1.2rem;
   }
