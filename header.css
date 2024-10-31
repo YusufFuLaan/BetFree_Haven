@@ -64,6 +64,7 @@ header > ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   height: 6rem;
   padding: 0 8rem;
 }
@@ -98,6 +99,7 @@ header > ul li a:hover {
   top: 3.9rem;
   left: -1rem;
   width: 28rem;
+  background-color: #ffffff;
   z-index: 1;
 }
 
@@ -106,6 +108,7 @@ header > ul li a:hover {
   padding: 1rem;
   border: 1px solid rgb(230, 230, 230);
 }
+
 .header-dropdown-content a:hover {
   padding-left: 3rem;
   border-bottom: 1.2px solid #1590ff;
@@ -113,4 +116,8 @@ header > ul li a:hover {
 
 .header-dropdown:hover .header-dropdown-content {
   display: block;
+}
+
+/*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
+@media (max-width: 1024px) {
 }
