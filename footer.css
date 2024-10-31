@@ -23,7 +23,7 @@ justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
 background: #3B4E68;
-min-width: 100vh;
+min-width: 100vw;
 min-height: 56.6vh;
 }
 
