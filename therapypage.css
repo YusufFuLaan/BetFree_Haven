@@ -151,6 +151,10 @@
     height: 20rem;
   }
 
+  .container1 .box .sob h1{
+display: none;
+  }
+
   .container1 .box p{
   font-size: 2rem;
   color: #ffffff;
@@ -177,21 +181,23 @@ justify-content: space-around;
 width: 80rem;
 height: 40rem;
 z-index: 1;
-border: 1px solid red;
 }
 
 .container2 .box{
-width: 25rem;
-height: 40rem;
+width: 28rem;
+height: 38rem;
 margin-bottom: 5rem;
 box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
-border: 1px solid red;
+}
+
+.container2 .sob:hover{
+  background: #f8f4f1;
+  transition: 0.5s ease;
 }
 
 .container2 .sub{
-width: 25rem;
-height: 30rem;
-border: 1px solid rgb(93, 0, 255);
+width: 28rem;
+height: 28rem;
 }
 
 .container2 .sub1{
@@ -211,18 +217,301 @@ display: flex;
 justify-content: end;
 align-items: center;
 background: #ffffff;
-width: 25rem;
+width: 28rem;
 height: 10rem;
 }
 
 .container2 .sob p{
-font-size: 1.5rem;
+font-size: 1.6rem;
 padding: 1rem;
+}
+
+  /*----------------------------------------------- container3Find providers who can help with these topics
+------------------------------- */
+
+
+.container3{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #3B4E68;
+min-width: 100vw;
+min-height: 100vh;
+}
+
+.container3 .underground{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+width: 120rem;
+height: 60rem;
+}
+
+.container3 .box1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 120rem;
+height: 10rem;
+}
+
+.container3 .sub{
+width: 30rem;
+}
+
+.container3 .box1 h1{
+  font-size: 2.4rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container3 .box2{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ffffff;
+width: 48rem;
+height: 19rem;
+}
+
+.container3 .box2 .sob{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+width: 22rem;
+height: 17rem;
+}
+
+
+.container3 .box2 .sob h3{
+font-size: 1.4rem;
+}
+
+.container3 .box2 .sob p{
+font-size: 1.4rem;
+line-height: 1.5;
+padding: 1rem;
+}
+
+.container3 .box2 .sob a{
+text-decoration: none;
+color: #ffffff;
+background: #1590ff;
+padding: 0.5rem;
+float: left;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+}
+
+.container3 .box2 .sob a:hover{
+background: #3B4E68;
+transition: 0.5s ease;
+}
+
+.container3 .box2 .mix1{
+background-image: url('Public/Assets/Images/relationship.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container3 .box2 .mix2{
+background-image: url('Public/Assets/Images/mental_health.svg');
+background-size: cover;
+background-position: center
+}
+
+.container3 .box2 .mix3{
+background-image: url('Public/Assets/Images/man_looses_money.svg');
+background-size: cover;
+background-position: center
+}
+
+.container3 .box2 .mix4{
+background-image: url('Public/Assets/Images/work_performance.svg');
+background-size: cover;
+background-position: center
+}
+
+  /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
+.container4{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+min-width: 100vw;
+min-height: 70vh;
+}
+
+.container4 .box1{
+display: flex;
+justify-content: center;
+align-items: center;
+width:120rem;
+height: 10rem;
+}
+.container4 .box2{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 120rem;
+height: 30rem;
+}
+
+
+.container4 .box2 .sob{
+display: flex;
+justify-content: center;
+align-items: end;
+width: 22rem;
+height: 27rem;
+}
+
+.container4 .box1 h1{
+font-size: 2.4rem;
+}
+
+.container4 .box1 a{
+font-size: 1.6rem;
+background: #1590ff;
+color:#ffffff;
+text-decoration: none;
+padding: 1rem;
+border-radius: 0.5rem;
+}
+
+.container4 .box1 a:hover{
+background: #3B4E68;
+transition: 0.5s ease;
+}
+
+.container4 .box2 .sob1{
+background-image: url('Public/Assets/Images/EbereSvg.svg');
+}
+
+.container4 .box2 .sob2{
+background-image: url('Public/Assets/Images/Tony.svg');
+}
+
+.container4 .box2 .sob3{
+background-image: url('Public/Assets/Images/blessing.svg');
+}
+
+.container4 .box2 .sob4{
+background-image: url('Public/Assets/Images/NgoziSvg.svg');
+}
+
+.container4 .box2 .sob5{
+background-image: url('Public/Assets/Images/JohnDoeSvg.svg');
+}
+
+.container4 .box2 p{
+width: 22rem;
+background: #ffffff;
+font-size: 2rem;
+font-weight: 600;
+text-align: center;
+}
+
+/* ----------------------------------------------Footer-------------------------------------------------------- */
+  
+footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+background: #3B4E68;
+min-width: 100vh;
+min-height: 56.6vh;
+}
+
+footer .box1{
+display: flex;
+justify-content: space-around;
+align-items: start;
+flex-wrap: wrap;
+height:24rem ;
+width: 120rem;
+}
+
+footer .box1 .sub{
+display: flex;
+justify-content: space-evenly;
+align-items: start;
+flex-direction: column;
+width: 28rem;
+height: 20rem;
+}
+
+footer .box1 .sub2{
+height: 25rem;
+}
+
+footer .box1 .sub h1{
+font-size: 2.4rem;
+color: #FEFFFF;
+}
+
+footer .box1 .sub p{
+font-size: 1.4rem;
+line-height: 3;
+color: #FEFFFF;
+}
+
+footer .box1 .sub a{
+font-size: 1.4rem;
+color: #FEFFFF;
+text-decoration: none;
+line-height: 2;
+}
+
+footer .box1 .sub a:hover {
+font-weight: 500;
+}
+
+footer .box1 .sub1 img{
+width: 25rem;
+}
+
+footer .box1 .sob img:hover {
+background-color: #31353a;
+border-radius: 5rem;
+}
+
+footer .box2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 0.1rem solid #b7c6db;
+width: 120rem;
+height: 4rem;
+}
+
+footer .box2 p{
+font-size: 1rem;
+color: #FEFFFFB2;
+}
+
+footer .box2 .set1 {
+display: flex;
+justify-content: start;
+align-items: center;
+width: 30rem;
+height: 3rem;
+}
+
+footer .box2 .set2 {
+display: flex;
+justify-content: end;
+align-items: center;
+width: 30rem;
+height: 3rem;
 }
 
 
 
-  /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
+/*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
   @media (max-width: 768px) {
   }
   
