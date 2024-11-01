@@ -131,6 +131,58 @@ header > ul li a:hover {
   display: block;
 }
 
+/*---------------------------------------------------------- Hero-Style-------------------------------------------------------------- */
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8rem;
+  background-color: #dbf6ff;
+}
+
+main > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30rem;
+  width: 45rem;
+  line-height: 1.5;
+}
+
+main > article > h1 {
+  font-size: 4.5rem;
+}
+
+main > article > p {
+  font-size: 1.6rem;
+}
+
+main > article > button {
+  font-size: 1.6rem;
+  padding: 1rem;
+  width: 20rem;
+  border: none;
+  background-color: #1590ff;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+main > article > button:hover {
+  background-color: #3b4e68;
+  cursor: pointer;
+}
+
+main > div {
+  height: 45rem;
+  width: 45rem;
+}
+
+main > div > img {
+  height: 100%;
+  width: 100%;
+}
+
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
 }
