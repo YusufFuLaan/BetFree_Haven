@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+  /*---------------------------------------------------------- Header-Style-------------------------------------------------------------- */
+  
+  .logoContainer {
+    padding: 2.5rem 0 2.5rem 8rem;
+    width: 60rem;
+  }
+  
+  .logoContainer img {
+    width: 100%;
+  }
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: #3b4e68;
+  }
+  
+  .menuContainer {
+    display: none;
+  }
+  
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+  
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .numberContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+  }
+  
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+  
+  #search {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 4rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.5rem;
+    font-size: 1.4rem;
+  }
+  
+  header > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 6rem;
+    padding: 0 8rem;
+  }
+  
+  header > ul li {
+    font-size: 1.6rem;
+    font-weight: 480;
+  }
+  
+  header > ul li a {
+    text-decoration: none;
+    color: #0a0a0a;
+    padding: 1.9rem 1rem;
+  }
+  
+  header > ul li a:hover {
+    color: #1590ff;
+  }
+  
+  .fa-solid {
+    padding-left: 0.8rem;
+  }
+  
+  .header-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .header-dropdown-content {
+    position: absolute;
+    display: none;
+    top: 3.9rem;
+    left: -1rem;
+    width: 28rem;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  
+  .header-dropdown-content a {
+    display: block;
+    padding: 1rem;
+    border: 1px solid rgb(230, 230, 230);
+  }
+  
+  .header-dropdown-content a:hover {
+    padding-left: 3rem;
+    border-bottom: 1.2px solid #1590ff;
+    transition: 0.5s ease;
+  }
+  
+  .header-dropdown:hover .header-dropdown-content {
+    display: block;
+  }
+
+
