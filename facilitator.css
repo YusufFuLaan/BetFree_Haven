@@ -135,7 +135,280 @@
   /* ----------------------------------------container1 style------------------------------------------ */
 
 .container1{
-background-image: url('Public/Assets/Images/makeImpact.svg');
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('Public/Assets/Images/makeImpact.jpg');
 min-width: 100vw;
-min-height: 82vh;
+min-height: 100vh;
 }
+
+.container1 .cover{
+display: flex;
+justify-content: start;
+align-items: center;
+width: 100rem;
+height: 38rem;
+}
+
+.container1 .box{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+width: 36.7rem;
+height: 37.3rem;
+border-radius: 2.4rem;
+background: #DBF6FF;
+}
+
+.container1 .box h1{
+font-size: 3.2rem;
+width: 25rem;
+}
+
+.container1 .box p{
+font-size: 2rem;
+width: 25rem;
+}
+
+.container1 .box a{
+font-size: 1.4rem;
+color: #ffffff;
+text-decoration: none;
+background: #1590FF;
+border-radius: 2.4rem;
+padding: 1.4rem 2.4rem;
+}
+
+.container1 .box a:hover{
+background: #3b4e68;
+transition: 0.5s ease;
+}
+
+
+  /* ----------------------------------------container2 style------------------------------------------ */
+.container2{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+min-width: 100vw;
+min-height: 150vh;
+}
+
+.container2 .box1{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #3B4E68;
+width: 120rem;
+height: 31rem;
+}
+
+.container2 .box1 .cover{
+ display: flex;
+justify-content: space-around;
+align-items: start;
+flex-direction: column;
+width: 100rem;
+height: 25rem;
+}
+
+.container2 .box1 h1{
+color: #ffffff;
+font-size: 4rem;
+width: 84rem;
+}
+.container2 .box1 p{
+color: #ffffff;
+font-size: 1.4rem;
+}
+.container2 .box1 a{
+background: #ffffff;
+color: #1590FF;
+font-size: 1.4rem;
+text-decoration: none;
+padding: 1rem 2rem;
+font-weight: 600;
+border-radius: 2.4rem;
+}
+
+.container2 .box1 a:hover{
+color: #3B4E68;
+transition: 0.5s ease;
+}
+
+.container2 .box2{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #F1F0F04D;
+width: 120rem;
+height: 48rem;
+}
+
+
+.container2 .box2 .sub{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+width: 39rem;
+height: 45rem;
+}
+
+.container2 .box2 .sob{
+width: 38rem;
+height: 27rem;
+border-radius: 3.2rem;
+}
+
+.container2 .box2 .sob1{
+background-image: url('Public/Assets/Images/training.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container2 .box2 .sob2{
+background-image: url('Public/Assets/Images/manageMeeting.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container2 .box2 .sob3{
+background-image: url('Public/Assets/Images/Partner.svg');
+background-size: cover;
+background-position: center;
+}
+
+.container2 .box2 .bob{
+width:38rem ;
+height:10rem ;
+}
+
+.container2 .box2 .bob h1{
+font-size: 2rem;
+padding-bottom: 1rem;
+}
+
+.container2 .box2 .bob p{
+font-size: 1.2rem;
+line-height: 1.5;
+color: #000000B2;
+}
+
+.container2 .box2 .zob{
+align-content: center;
+width:38rem ;
+height:5rem ;
+}
+
+
+.container2 .box2 .zob a{
+font-size: 1.4rem;
+font-weight: 600;
+color: #1590FF;
+text-decoration: none;
+}
+
+.container2 .box2 .zob a:hover{
+color: #3B4E68;
+transition: 0.5s ease;
+}
+
+footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+background: #3B4E68;
+min-width: 100vw;
+min-height: 56.6vh;
+}
+
+footer .box1{
+display: flex;
+justify-content: space-around;
+align-items: start;
+flex-wrap: wrap;
+height:24rem ;
+width: 120rem;
+}
+
+footer .box1 .sub{
+display: flex;
+justify-content: space-evenly;
+align-items: start;
+flex-direction: column;
+width: 28rem;
+height: 20rem;
+}
+
+footer .box1 .sub2{
+height: 25rem;
+}
+
+footer .box1 .sub h1{
+font-size: 2.4rem;
+color: #FEFFFF;
+}
+
+footer .box1 .sub p{
+font-size: 1.4rem;
+line-height: 3;
+color: #FEFFFF;
+}
+
+footer .box1 .sub a{
+font-size: 1.4rem;
+color: #FEFFFF;
+text-decoration: none;
+line-height: 2;
+}
+
+footer .box1 .sub a:hover {
+color: #2e86f2;
+transition: 0.5s ease;
+}
+
+footer .box1 .sub1 img{
+width: 25rem;
+}
+
+footer .box1 .sob img:hover {
+background-color: #2e86f2;
+border-radius: 5rem;
+transition: 0.5s ease;
+}
+
+footer .box2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 0.1rem solid #b7c6db;
+width: 120rem;
+height: 4rem;
+}
+
+footer .box2 p{
+font-size: 1rem;
+color: #FEFFFFB2;
+}
+
+footer .box2 .set1 {
+display: flex;
+justify-content: start;
+align-items: center;
+width: 30rem;
+height: 3rem;
+}
+
+footer .box2 .set2 {
+display: flex;
+justify-content: end;
+align-items: center;
+width: 30rem;
+height: 3rem;
+}
+
