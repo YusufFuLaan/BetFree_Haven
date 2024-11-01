@@ -68,7 +68,8 @@ line-height: 2;
 }
 
 footer .box1 .sub a:hover {
-font-weight: 500;
+color: #2e86f2;
+transition: 0.5s ease;
 }
 
 footer .box1 .sub1 img{
@@ -76,8 +77,9 @@ width: 25rem;
 }
 
 footer .box1 .sob img:hover {
-background-color: #31353a;
+background-color: #2e86f2;
 border-radius: 5rem;
+transition: 0.5s ease;
 }
 
 footer .box2{
@@ -192,7 +194,8 @@ line-height: 2;
 }
 
 footer .box1 .sub a:hover {
-font-weight: 500;
+color: #2e86f2;
+transition: 0.5s ease;
 }
 
 footer .box1 .sub1 img{
@@ -200,7 +203,8 @@ width: 40rem;
 }
 
 footer .box1 .sob img:hover {
-background-color: #31353a;
+background-color: #2e86f2;
+transition: 0.5s ease;
 border-radius: 5rem;
 }
 
@@ -236,7 +240,7 @@ height: 3rem;
 } 
 }
 
-@media (max-width:425px){
+@media (max-width:600px){
  *{
   margin: 0;
   padding: 0;
@@ -315,7 +319,8 @@ line-height: 2.5;
 }
 
 footer .box1 .sub a:hover {
-font-weight: 500;
+color: #2e86f2;
+transition: 0.5s ease;
 }
 
 footer .box1 .sub1 img{
@@ -323,8 +328,9 @@ width: 30rem;
 }
 
 footer .box1 .sob img:hover {
-background-color: #31353a;
+background-color: #2e86f2;
 border-radius: 5rem;
+transition: 0.5s ease;
 }
 
 footer .box2{
