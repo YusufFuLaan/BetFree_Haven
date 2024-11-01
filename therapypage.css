@@ -1,544 +1,538 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-family: "Inter", sans-serif;
-  }
-  
-  ul,
-  ol,
-  li {
-    list-style: none;
-  }
-  /*---------------------------------------------------------- Header-Style-------------------------------------------------------------- */
-  
-  .logoContainer {
-    padding: 2.5rem 0 2.5rem 8rem;
-    width: 60rem;
-  }
-  
-  .logoContainer img {
-    width: 100%;
-  }
-  .subheaderContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-    background-color: #3b4e68;
-  }
-  
-  .menuContainer {
-    display: none;
-  }
-  
-  .material-symbols-outlined {
-    color: #ffffff;
-  }
-  
-  .contactContainer {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-  
-  .numberContainer {
-    display: flex;
-    justify-content: space-between;
-    width: 18rem;
-  }
-  
-  .numberContainer p {
-    color: #ffffff;
-    font-size: 1.6rem;
-  }
-  
-  #search {
-    width: 20rem;
-    height: 3rem;
-    padding-left: 4rem;
-    border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.5rem;
-    font-size: 1.4rem;
-  }
-  
-  header > ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 6rem;
-    padding: 0 8rem;
-  }
-  
-  header > ul li {
-    font-size: 1.6rem;
-    font-weight: 480;
-  }
-  
-  header > ul li a {
-    text-decoration: none;
-    color: #0a0a0a;
-    padding: 1.9rem 1rem;
-  }
-  
-  header > ul li a:hover {
-    color: #1590ff;
-  }
-  
-  .fa-solid {
-    padding-left: 0.8rem;
-  }
-  
-  .header-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .header-dropdown-content {
-    position: absolute;
-    display: none;
-    top: 3.9rem;
-    left: -1rem;
-    width: 28rem;
-    background-color: #ffffff;
-    z-index: 1;
-  }
-  
-  .header-dropdown-content a {
-    display: block;
-    padding: 1rem;
-    border: 1px solid rgb(230, 230, 230);
-  }
-  
-  .header-dropdown-content a:hover {
-    padding-left: 3rem;
-    border-bottom: 1.2px solid #1590ff;
-    transition: 0.5s ease;
-  }
-  
-  .header-dropdown:hover .header-dropdown-content {
-    display: block;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+/*---------------------------------------------------------- Header-Style-------------------------------------------------------------- */
+
+.logoContainer {
+  padding: 2.5rem 0 2.5rem 8rem;
+  width: 60rem;
+}
+
+.logoContainer img {
+  width: 100%;
+}
+.subheaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: #3b4e68;
+}
+
+.menuContainer {
+  display: none;
+}
+
+.material-symbols-outlined {
+  color: #ffffff;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.numberContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+}
+
+.numberContainer p {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+#search {
+  width: 20rem;
+  height: 3rem;
+  padding-left: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-image: url("Public/Assets/Icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: 1.5rem 0.5rem;
+  font-size: 1.4rem;
+}
+
+header > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 6rem;
+  padding: 0 8rem;
+}
+
+header > ul li {
+  font-size: 1.6rem;
+  font-weight: 480;
+}
+
+header > ul li a {
+  text-decoration: none;
+  color: #0a0a0a;
+  padding: 1.9rem 1rem;
+}
+
+header > ul li a:hover {
+  color: #1590ff;
+}
+
+.fa-solid {
+  padding-left: 0.8rem;
+}
+
+.header-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.header-dropdown-content {
+  position: absolute;
+  display: none;
+  top: 3.9rem;
+  left: -1rem;
+  width: 28rem;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.header-dropdown-content a {
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.header-dropdown-content a:hover {
+  padding-left: 3rem;
+  border-bottom: 1.2px solid #1590ff;
+  transition: 0.5s ease;
+}
+
+.header-dropdown:hover .header-dropdown-content {
+  display: block;
+}
 
 /* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
-  .container1{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 120vh;
-    background-image: url('Public/Assets/Images/mentalHealth.svg');
-    background-size: cover;
-  }
+.container1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 120vh;
+  background-image: url("Public/Assets/Images/mentalHealth.svg");
+  background-size: cover;
+}
 
-  .container1 .box{
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    width: 110rem;
-    height: 20rem;
-  }
+.container1 .box {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 110rem;
+  height: 20rem;
+}
 
-  .container1 .box .sob1{
-display: none;
-  }
+.container1 .box .sob1 {
+  display: none;
+}
 
-  .container1 .box p{
+.container1 .box p {
   font-size: 2rem;
   color: #ffffff;
   padding-bottom: 1rem;
-  }
-
-  /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
-.container2{
-display: flex;
-position: relative;
-justify-content: center;
-align-items: start;
-overflow: visible;
-background: #ffffff;
-min-width: 100vw;
-min-height: 60vh;
 }
 
-.container2 .overlay{
-display: flex;
-position: absolute;
-top: -10rem;
-justify-content: space-around;
-width: 80rem;
-height: 40rem;
-z-index: 1;
+/*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
+.container2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: start;
+  overflow: visible;
+  background: #ffffff;
+  width: 100vw;
+  height: 60vh;
 }
 
-.container2 .box{
-width: 28rem;
-height: 38rem;
-margin-bottom: 5rem;
-box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+.container2 .overlay {
+  display: flex;
+  position: absolute;
+  top: -10rem;
+  justify-content: space-around;
+  width: 80rem;
+  height: 40rem;
+  z-index: 1;
 }
 
-.container2 .sob:hover{
+.container2 .box {
+  width: 28rem;
+  height: 38rem;
+  margin-bottom: 5rem;
+  box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+}
+
+.container2 .sob:hover {
   background: #f8f4f1;
   transition: 0.5s ease;
 }
 
-.container2 .sub{
-width: 28rem;
-height: 28rem;
+.container2 .sub {
+  width: 28rem;
+  height: 28rem;
 }
 
-.container2 .sub1{
-background-image: url('Public/Assets/Images/VirtualMeeting.svg');
-background-size: cover;
-background-position: center;
+.container2 .sub1 {
+  background-image: url("Public/Assets/Images/VirtualMeeting.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-.container2 .sub2{
-background-image: url('Public/Assets/Images/in-personMeeting.svg');
-background-size: cover;
-background-position: center;
+.container2 .sub2 {
+  background-image: url("Public/Assets/Images/in-personMeeting.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-.container2 .sob{
-display: flex;
-justify-content: end;
-align-items: center;
-background: #ffffff;
-width: 28rem;
-height: 10rem;
+.container2 .sob {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background: #ffffff;
+  width: 28rem;
+  height: 10rem;
 }
 
-.container2 .sob p{
-font-size: 1.6rem;
-padding: 1rem;
+.container2 .sob p {
+  font-size: 1.6rem;
+  padding: 1rem;
 }
 
-  /*----------------------------------------------- container3Find providers who can help with these topics
-------------------------------- */
+/*----------------------------------------------- container3Find providers who can help with these topics--------------------------------- */
 
-
-.container3{
-display: flex;
-justify-content: center;
-align-items: center;
-background: #3B4E68;
-min-width: 100vw;
-min-height: 100vh;
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3b4e68;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
-.container3 .underground{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-width: 120rem;
-height: 60rem;
+.container3 .underground {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 120rem;
+  height: 60rem;
 }
 
-.container3 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 120rem;
-height: 10rem;
+.container3 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120rem;
+  height: 10rem;
 }
 
-.container3 .sub{
-width: 30rem;
+.container3 .sub {
+  width: 30rem;
 }
 
-.container3 .box1 h1{
+.container3 .box1 h1 {
   font-size: 2.4rem;
   text-align: center;
   color: #ffffff;
 }
 
-.container3 .box2{
-display: flex;
-justify-content: center;
-align-items: center;
-background: #ffffff;
-width: 48rem;
-height: 19rem;
+.container3 .box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  width: 48rem;
+  height: 19rem;
 }
 
-.container3 .box2 .sob{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: column;
-width: 22rem;
-height: 17rem;
+.container3 .box2 .sob {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  height: 17rem;
 }
 
-
-.container3 .box2 .sob h3{
-font-size: 1.4rem;
+.container3 .box2 .sob h3 {
+  font-size: 1.4rem;
 }
 
-.container3 .box2 .sob p{
-font-size: 1.4rem;
-line-height: 1.5;
-padding: 1rem;
+.container3 .box2 .sob p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 1rem;
 }
 
-.container3 .box2 .sob a{
-text-decoration: none;
-color: #ffffff;
-background: #1590ff;
-padding: 0.5rem;
-float: left;
-border-radius: 0.5rem;
-font-size: 1.2rem;
+.container3 .box2 .sob a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #1590ff;
+  padding: 0.5rem;
+  float: left;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
 }
 
-.container3 .box2 .sob a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
+.container3 .box2 .sob a:hover {
+  background: #3b4e68;
+  transition: 0.5s ease;
 }
 
-.container3 .box2 .mix1{
-background-image: url('Public/Assets/Images/relationship.svg');
-background-size: cover;
-background-position: center;
+.container3 .box2 .mix1 {
+  background-image: url("Public/Assets/Images/relationship.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-.container3 .box2 .mix2{
-background-image: url('Public/Assets/Images/mental_health.svg');
-background-size: cover;
-background-position: center
+.container3 .box2 .mix2 {
+  background-image: url("Public/Assets/Images/mental_health.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-.container3 .box2 .mix3{
-background-image: url('Public/Assets/Images/man_looses_money.svg');
-background-size: cover;
-background-position: center
+.container3 .box2 .mix3 {
+  background-image: url("Public/Assets/Images/man_looses_money.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-.container3 .box2 .mix4{
-background-image: url('Public/Assets/Images/work_performance.svg');
-background-size: cover;
-background-position: center
+.container3 .box2 .mix4 {
+  background-image: url("Public/Assets/Images/work_performance.svg");
+  background-size: cover;
+  background-position: center;
 }
 
-  /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
-.container4{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-min-width: 100vw;
-min-height: 70vh;
+/*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 70vh;
 }
 
-.container4 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width:120rem;
-height: 10rem;
+.container4 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120rem;
+  height: 10rem;
 }
-.container4 .box2{
-display: flex;
-justify-content: space-around;
-align-items: center;
-width: 120rem;
-height: 30rem;
-}
-
-
-.container4 .box2 .sob{
-display: flex;
-justify-content: center;
-align-items: end;
-width: 22rem;
-height: 27rem;
+.container4 .box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120rem;
+  height: 30rem;
 }
 
-.container4 .box1 h1{
-font-size: 2.4rem;
+.container4 .box2 .sob {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 22rem;
+  height: 27rem;
 }
 
-.container4 .box1 a{
-font-size: 1.6rem;
-background: #1590ff;
-color:#ffffff;
-text-decoration: none;
-padding: 1rem;
-border-radius: 0.5rem;
+.container4 .box1 h1 {
+  font-size: 2.4rem;
 }
 
-.container4 .box1 a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
+.container4 .box1 a {
+  font-size: 1.6rem;
+  background: #1590ff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
-.container4 .box2 .sob1{
-background-image: url('Public/Assets/Images/EbereSvg.svg');
+.container4 .box1 a:hover {
+  background: #3b4e68;
+  transition: 0.5s ease;
 }
 
-.container4 .box2 .sob2{
-background-image: url('Public/Assets/Images/Tony.svg');
+.container4 .box2 .sob1 {
+  background-image: url("Public/Assets/Images/EbereSvg.svg");
 }
 
-.container4 .box2 .sob3{
-background-image: url('Public/Assets/Images/blessing.svg');
+.container4 .box2 .sob2 {
+  background-image: url("Public/Assets/Images/Tony.svg");
 }
 
-.container4 .box2 .sob4{
-background-image: url('Public/Assets/Images/NgoziSvg.svg');
+.container4 .box2 .sob3 {
+  background-image: url("Public/Assets/Images/blessing.svg");
 }
 
-.container4 .box2 .sob5{
-background-image: url('Public/Assets/Images/JohnDoeSvg.svg');
+.container4 .box2 .sob4 {
+  background-image: url("Public/Assets/Images/NgoziSvg.svg");
 }
 
-.container4 .box2 p{
-width: 22rem;
-background: #ffffff;
-font-size: 2rem;
-font-weight: 600;
-text-align: center;
+.container4 .box2 .sob5 {
+  background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
+}
+
+.container4 .box2 p {
+  width: 22rem;
+  background: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 /* ----------------------------------------------Footer-------------------------------------------------------- */
-  
-footer{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-flex-direction: column;
-background: #3B4E68;
-min-width: 100vh;
-min-height: 56.6vh;
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: #3b4e68;
+  min-width: 100vh;
+  min-height: 56.6vh;
 }
 
-footer .box1{
-display: flex;
-justify-content: space-around;
-align-items: start;
-flex-wrap: wrap;
-height:24rem ;
-width: 120rem;
+footer .box1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  height: 24rem;
+  width: 120rem;
 }
 
-footer .box1 .sub{
-display: flex;
-justify-content: space-evenly;
-align-items: start;
-flex-direction: column;
-width: 28rem;
-height: 20rem;
+footer .box1 .sub {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  width: 28rem;
+  height: 20rem;
 }
 
-footer .box1 .sub2{
-height: 25rem;
+footer .box1 .sub2 {
+  height: 25rem;
 }
 
-footer .box1 .sub h1{
-font-size: 2.4rem;
-color: #FEFFFF;
+footer .box1 .sub h1 {
+  font-size: 2.4rem;
+  color: #feffff;
 }
 
-footer .box1 .sub p{
-font-size: 1.4rem;
-line-height: 3;
-color: #FEFFFF;
+footer .box1 .sub p {
+  font-size: 1.4rem;
+  line-height: 3;
+  color: #feffff;
 }
 
-footer .box1 .sub a{
-font-size: 1.4rem;
-color: #FEFFFF;
-text-decoration: none;
-line-height: 2;
+footer .box1 .sub a {
+  font-size: 1.4rem;
+  color: #feffff;
+  text-decoration: none;
+  line-height: 2;
 }
 
 footer .box1 .sub a:hover {
-font-weight: 500;
+  font-weight: 500;
 }
 
-footer .box1 .sub1 img{
-width: 25rem;
+footer .box1 .sub1 img {
+  width: 25rem;
 }
 
 footer .box1 .sob img:hover {
-background-color: #31353a;
-border-radius: 5rem;
+  background-color: #31353a;
+  border-radius: 5rem;
 }
 
-footer .box2{
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-top: 0.1rem solid #b7c6db;
-width: 120rem;
-height: 4rem;
+footer .box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1rem solid #b7c6db;
+  width: 120rem;
+  height: 4rem;
 }
 
-footer .box2 p{
-font-size: 1rem;
-color: #FEFFFFB2;
+footer .box2 p {
+  font-size: 1rem;
+  color: #feffffb2;
 }
 
 footer .box2 .set1 {
-display: flex;
-justify-content: start;
-align-items: center;
-width: 30rem;
-height: 3rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30rem;
+  height: 3rem;
 }
 
 footer .box2 .set2 {
-display: flex;
-justify-content: end;
-align-items: center;
-width: 30rem;
-height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 30rem;
+  height: 3rem;
 }
 
-
-
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
-  @media (max-width: 768px) {
-* {
+@media (max-width: 768px) {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   html {
-    font-size:50%;
+    font-size: 50%;
   }
-  
+
   body {
     font-family: "Inter", sans-serif;
   }
-  
+
   ul,
   ol,
   li {
     list-style: none;
   }
   /*---------------------------------------------------------- Header-Style-------------------------------------------------------------- */
-  
+
   .logoContainer {
     padding: 2.5rem 0 2.5rem 8rem;
     width: 60rem;
   }
-  
+
   .logoContainer img {
     width: 100%;
   }
@@ -549,32 +543,32 @@ height: 3rem;
     height: 5rem;
     background-color: #3b4e68;
   }
-  
+
   .menuContainer {
     display: none;
   }
-  
+
   .material-symbols-outlined {
     color: #ffffff;
   }
-  
+
   .contactContainer {
     display: flex;
     justify-content: space-between;
     width: 80%;
   }
-  
+
   .numberContainer {
     display: flex;
     justify-content: space-between;
     width: 18rem;
   }
-  
+
   .numberContainer p {
     color: #ffffff;
     font-size: 1.6rem;
   }
-  
+
   #search {
     width: 20rem;
     height: 3rem;
@@ -586,7 +580,7 @@ height: 3rem;
     background-position: 1.5rem 0.5rem;
     font-size: 1.4rem;
   }
-  
+
   header > ul {
     display: flex;
     justify-content: space-around;
@@ -595,31 +589,31 @@ height: 3rem;
     height: 6rem;
     padding: 0 8rem;
   }
-  
+
   header > ul li {
     font-size: 1.6rem;
     font-weight: 480;
   }
-  
+
   header > ul li a {
     text-decoration: none;
     color: #0a0a0a;
     padding: 1.9rem 1rem;
   }
-  
+
   header > ul li a:hover {
     color: #1590ff;
   }
-  
+
   .fa-solid {
     padding-left: 0.8rem;
   }
-  
+
   .header-dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
   .header-dropdown-content {
     position: absolute;
     display: none;
@@ -629,908 +623,892 @@ height: 3rem;
     background-color: #ffffff;
     z-index: 1;
   }
-  
+
   .header-dropdown-content a {
     display: block;
     padding: 1rem;
     border: 1px solid rgb(230, 230, 230);
   }
-  
+
   .header-dropdown-content a:hover {
     padding-left: 3rem;
     border-bottom: 1.2px solid #1590ff;
     transition: 0.5s ease;
   }
-  
+
   .header-dropdown:hover .header-dropdown-content {
     display: block;
   }
 
-/* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
-  .container1{
+  /* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
+  .container1 {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     min-width: 100vw;
     min-height: 120vh;
-    background-image: url('Public/Assets/Images/consult.jpg');
+    background-image: url("Public/Assets/Images/consult.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  .container1 .box{
+  .container1 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80rem;
     height: 48rem;
-}
-
-  .container1 .box .sob1{
-  display:flex;
-  justify-content: left;
-  align-items: end;
-  width:43rem;
-  height: 48rem;
   }
 
-  .container1 .sob1 h1{
-  display: flex;
-  color: #ffffff;
-  font-size: 8rem;
+  .container1 .box .sob1 {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    width: 43rem;
+    height: 48rem;
   }
 
-  .container1 .box .sub{
-  display: none;
-  font-size: 2rem;
-  color: #ffffff;
-  padding-bottom: 1rem;
+  .container1 .sob1 h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 8rem;
+  }
+
+  .container1 .box .sub {
+    display: none;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
   }
 
   /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
-.container2{
-display: flex;
-position: relative;
-justify-content: center;
-align-items: start;
-overflow: visible;
-background: #ffffff;
-min-width: 100vw;
-min-height: 150vh;
-}
+  .container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    overflow: visible;
+    background: #ffffff;
+    min-width: 100vw;
+    min-height: 150vh;
+  }
 
-.container2 .overlay{
-display: flex;
-position: absolute;
-top: -10rem;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-width: 60rem;
-height: 95rem;
-z-index: 1;
-}
+  .container2 .overlay {
+    display: flex;
+    position: absolute;
+    top: -10rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 60rem;
+    height: 95rem;
+    z-index: 1;
+  }
 
-.container2 .box{
-width: 29rem;
-height: 38rem;
-margin-bottom: 5rem;
-box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
-}
+  .container2 .box {
+    width: 29rem;
+    height: 38rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+  }
 
-.container2 .sob:hover{
-  background: #f8f4f1;
-  transition: 0.5s ease;
-}
+  .container2 .sob:hover {
+    background: #f8f4f1;
+    transition: 0.5s ease;
+  }
 
-.container2 .sub{
-width: 29rem;
-height: 28rem;
-}
+  .container2 .sub {
+    width: 29rem;
+    height: 28rem;
+  }
 
-.container2 .sub1{
-background-image: url('Public/Assets/Images/VirtualMeeting.svg');
-background-size: cover;
-background-position: center;
-}
+  .container2 .sub1 {
+    background-image: url("Public/Assets/Images/VirtualMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container2 .sub2{
-background-image: url('Public/Assets/Images/in-personMeeting.svg');
-background-size: cover;
-background-position: center;
-}
+  .container2 .sub2 {
+    background-image: url("Public/Assets/Images/in-personMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container2 .sob{
-display: flex;
-justify-content: end;
-align-items: center;
-background: #ffffff;
-width: 28rem;
-height: 10rem;
-}
+  .container2 .sob {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #ffffff;
+    width: 28rem;
+    height: 10rem;
+  }
 
-.container2 .sob p{
-font-size: 1.6rem;
-text-align: center;
-padding: 1rem;
-}
+  .container2 .sob p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+  }
 
-  /*----------------------------------------------- container3Find providers who can help with these topics
-------------------------------- */
+  /*----------------------------------------------- container3Find providers who can help with these topics------------------------------- */
 
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 200vh;
+  }
 
-.container3{
-display: flex;
-justify-content: center;
-align-items: center;
-background: #3B4E68;
-min-width: 100vw;
-min-height: 200vh;
-}
+  .container3 .underground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90rem;
+    height: 120rem;
+  }
 
-.container3 .underground{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-width: 90rem;
-height: 120rem;
-}
+  .container3 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
+    height: 10rem;
+  }
 
-.container3 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 90rem;
-height: 10rem;
-}
+  .container3 .sub {
+    width: 30rem;
+  }
 
-.container3 .sub{
-width: 30rem;
-}
+  .container3 .box1 h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #ffffff;
+  }
 
-.container3 .box1 h1{
-  font-size: 2.4rem;
-  text-align: center;
-  color: #ffffff;
-}
+  .container3 .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 64rem;
+    height: 19rem;
+  }
 
-.container3 .box2{
-display: flex;
-justify-content: center;
-align-items: center;
-background: #ffffff;
-width: 64rem;
-height: 19rem;
-}
+  .container3 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    height: 17rem;
+  }
 
-.container3 .box2 .sob{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: column;
-width: 30rem;
-height: 17rem;
-}
+  .container3 .box2 .sob h3 {
+    font-size: 1.4rem;
+  }
 
+  .container3 .box2 .sob p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 1rem;
+  }
 
-.container3 .box2 .sob h3{
-font-size: 1.4rem;
-}
+  .container3 .box2 .sob a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1590ff;
+    padding: 0.5rem;
+    float: left;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+  }
 
-.container3 .box2 .sob p{
-font-size: 1.4rem;
-line-height: 1.5;
-padding: 1rem;
-}
+  .container3 .box2 .sob a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
 
-.container3 .box2 .sob a{
-text-decoration: none;
-color: #ffffff;
-background: #1590ff;
-padding: 0.5rem;
-float: left;
-border-radius: 0.5rem;
-font-size: 1.2rem;
-}
+  .container3 .box2 .mix1 {
+    background-image: url("Public/Assets/Images/relationship.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .sob a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
-}
+  .container3 .box2 .mix2 {
+    background-image: url("Public/Assets/Images/mental_health.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .mix1{
-background-image: url('Public/Assets/Images/relationship.svg');
-background-size: cover;
-background-position: center;
-}
+  .container3 .box2 .mix3 {
+    background-image: url("Public/Assets/Images/man_looses_money.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .mix2{
-background-image: url('Public/Assets/Images/mental_health.svg');
-background-size: cover;
-background-position: center
-}
-
-.container3 .box2 .mix3{
-background-image: url('Public/Assets/Images/man_looses_money.svg');
-background-size: cover;
-background-position: center
-}
-
-.container3 .box2 .mix4{
-background-image: url('Public/Assets/Images/work_performance.svg');
-background-size: cover;
-background-position: center
-}
+  .container3 .box2 .mix4 {
+    background-image: url("Public/Assets/Images/work_performance.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
   /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
-.container4{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-min-width: 100vw;
-min-height: 200vh;
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 200vh;
+  }
+
+  .container4 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    height: 10rem;
+  }
+
+  .container4 .box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60rem;
+    height: 100rem;
+  }
+
+  .container4 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 22rem;
+    height: 27rem;
+  }
+
+  .container4 .box1 h1 {
+    font-size: 2.4rem;
+  }
+
+  .container4 .box1 a {
+    font-size: 1.6rem;
+    background: #1590ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .container4 .box1 a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container4 .box2 .sob1 {
+    background-image: url("Public/Assets/Images/EbereSvg.svg");
+  }
+
+  .container4 .box2 .sob2 {
+    background-image: url("Public/Assets/Images/Tony.svg");
+  }
+
+  .container4 .box2 .sob3 {
+    background-image: url("Public/Assets/Images/blessing.svg");
+  }
+
+  .container4 .box2 .sob4 {
+    background-image: url("Public/Assets/Images/NgoziSvg.svg");
+  }
+
+  .container4 .box2 .sob5 {
+    background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
+  }
+
+  .container4 .box2 p {
+    width: 22rem;
+    background: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* ----------------------------------------------Footer-------------------------------------------------------- */
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 120vh;
+  }
+
+  footer .box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    height: 67rem;
+    width: 90rem;
+  }
+
+  footer .box1 .sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    width: 25rem;
+    height: 35rem;
+  }
+
+  footer .box1 .sub1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80rem;
+    height: 30rem;
+  }
+  footer .box1 .sub2 {
+    height: 35rem;
+  }
+
+  footer .box1 .sub4 {
+    height: 25rem;
+  }
+
+  footer .box1 .sub h1 {
+    font-size: 3.5rem;
+    color: #feffff;
+  }
+
+  footer .box1 .sub p {
+    font-size: 2rem;
+    line-height: 3;
+    color: #feffff;
+  }
+
+  footer .box1 .sub a {
+    font-size: 2rem;
+    color: #feffff;
+    text-decoration: none;
+    line-height: 2;
+  }
+
+  footer .box1 .sub a:hover {
+    font-weight: 500;
+  }
+
+  footer .box1 .sub1 img {
+    width: 40rem;
+  }
+
+  footer .box1 .sob img:hover {
+    background-color: #31353a;
+    border-radius: 5rem;
+  }
+
+  footer .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.1rem solid #b7c6db;
+    width: 90rem;
+    height: 5rem;
+  }
+
+  footer .box2 p {
+    font-size: 1.5rem;
+    color: #feffffb2;
+  }
+
+  footer .box2 .set1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 40rem;
+    height: 3rem;
+  }
+
+  footer .box2 .set2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30rem;
+    height: 3rem;
+  }
 }
 
-.container4 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width:80rem;
-height: 10rem;
-}
-
-.container4 .box2{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-width: 60rem;
-height: 100rem;
-}
-
-
-.container4 .box2 .sob{
-display: flex;
-justify-content: space-around;
-align-items: end;
-width: 22rem;
-height: 27rem;
-}
-
-.container4 .box1 h1{
-font-size: 2.4rem;
-}
-
-.container4 .box1 a{
-font-size: 1.6rem;
-background: #1590ff;
-color:#ffffff;
-text-decoration: none;
-padding: 1rem;
-border-radius: 0.5rem;
-}
-
-.container4 .box1 a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
-}
-
-.container4 .box2 .sob1{
-background-image: url('Public/Assets/Images/EbereSvg.svg');
-}
-
-.container4 .box2 .sob2{
-background-image: url('Public/Assets/Images/Tony.svg');
-}
-
-.container4 .box2 .sob3{
-background-image: url('Public/Assets/Images/blessing.svg');
-}
-
-.container4 .box2 .sob4{
-background-image: url('Public/Assets/Images/NgoziSvg.svg');
-}
-
-.container4 .box2 .sob5{
-background-image: url('Public/Assets/Images/JohnDoeSvg.svg');
-}
-
-.container4 .box2 p{
-width: 22rem;
-background: #ffffff;
-font-size: 2rem;
-font-weight: 600;
-text-align: center;
-}
-
-/* ----------------------------------------------Footer-------------------------------------------------------- */
-  
-footer{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-flex-direction: column;
-background: #3B4E68;
-min-width: 100vw;
-min-height: 120vh;
-}
-
-footer .box1{
-display: flex;
-justify-content: space-around;
-align-items: start;
-flex-wrap: wrap;
-height:67rem ;
-width: 90rem;
-}
-
-footer .box1 .sub{
-display: flex;
-justify-content: space-between;
-align-items: start;
-flex-direction: column;
-width: 25rem;
-height: 35rem;
-}
-
-footer .box1 .sub1{
-display: flex;
-justify-content: start;
-align-items: center;
-width: 80rem;
-height: 30rem;
-}
-footer .box1 .sub2{
-height: 35rem;
-}
-
-footer .box1 .sub4{
-height: 25rem;
-}
-
-footer .box1 .sub h1{
-font-size: 3.5rem;
-color: #FEFFFF;
-}
-
-footer .box1 .sub p{
-font-size: 2rem;
-line-height: 3;
-color: #FEFFFF;
-}
-
-footer .box1 .sub a{
-font-size: 2rem;
-color: #FEFFFF;
-text-decoration: none;
-line-height: 2;
-}
-
-footer .box1 .sub a:hover {
-font-weight: 500;
-}
-
-footer .box1 .sub1 img{
-width: 40rem;
-}
-
-footer .box1 .sob img:hover {
-background-color: #31353a;
-border-radius: 5rem;
-}
-
-footer .box2{
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-top: 0.1rem solid #b7c6db;
-width: 90rem;
-height: 5rem;
-}
-
-footer .box2 p{
-font-size: 1.5rem;
-color:#FEFFFFB2;
-
-}
-
-footer .box2 .set1 {
-display: flex;
-justify-content: end;
-align-items: center;
-width: 40rem;
-height: 3rem;
-}
-
-footer .box2 .set2 {
-display: flex;
-justify-content: start;
-align-items: center;
-width: 30rem;
-height: 3rem;
-} 
-}
-  
 /*---------------------------------------------------------- Mobile-Screen-Style-------------------------------------------------------------- */
 
-  @media (max-width: 600px) {
-    .logoContainer {
-      padding: 2rem;
-min-width: 100vw;
-    }
-  
-    .subheaderContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-width: 100vw;
-      height: 6rem;
-      background-color: #3b4e68;
+@media (max-width: 600px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
 
-}
-  
-    .menuContainer {
-      display: block;
-    }
-  
-    .material-symbols-outlined {
-      color: #ffffff;
-    }
-  
-    .contactContainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 80%;
-    }
-  
-    .numberContainer {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 13rem;
-      height: 3rem;
-    }
-  
-    .numberContainer img {
-      width: 1.5rem;
-    }
-  
-    .numberContainer p {
-      color: #ffffff;
-      font-size: 1.2rem;
-    }
-  
-    #search {
-      width: 16rem;
-      height: 2rem;
-      padding-left: 6rem;
-      border-radius: 2rem;
-      border: none;
-      background-image: url("Public/Assets/Icons/search.svg");
-      background-repeat: no-repeat;
-      background-position: 1.5rem 0.5rem;
-      background-size: 1.3rem;
-      font-size: 1.2rem;
-    }
-  
-    header > ul {
-      display: none;
-    }
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
 
-/* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
-  .container1{
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+  }
+
+  .numberContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+  }
+
+  .numberContainer img {
+    width: 1.5rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+  #search {
+    width: 16rem;
+    height: 2rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.5rem;
+    background-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
+  /* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
+  .container1 {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    min-width: 100vw;
-    min-height: 170vh;
-    background-image: url('Public/Assets/Images/consult.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Public/Assets/Images/consult.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  .container1 .box{
+  .container1 .box {
     display: flex;
     justify-content: start;
     align-items: start;
     width: 40rem;
     height: 50rem;
-}
-
-  .container1 .box .sob1{
-  display:flex;
-  justify-content: left;
-  align-items: end;
-  width:43rem;
-  height: 48rem;
   }
 
-  .container1 .sob1 h1{
-  display: flex;
-  color: #ffffff;
-  font-size: 8rem;
+  .container1 .box .sob1 {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    width: 43rem;
+    height: 37rem;
   }
 
-  .container1 .box .sub{
-  display: none;
-  font-size: 2rem;
-  color: #ffffff;
-  padding-bottom: 1rem;
+  .container1 .sob1 h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 8rem;
+  }
+
+  .container1 .box .sub {
+    display: none;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
   }
 
   /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
-.container2{
-display: flex;
-position: relative;
-justify-content: center;
-align-items: start;
-overflow: visible;
-background: #ffffff;
-min-width: 100vw;
-min-height: 150vh;
-}
+  .container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    overflow: visible;
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+  }
 
-.container2 .overlay{
-display: flex;
-position: absolute;
-top: -10rem;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-width: 50rem;
-height: 95rem;
-z-index: 1;
-}
+  .container2 .overlay {
+    display: flex;
+    position: absolute;
+    top: -10rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 95rem;
+    z-index: 1;
+  }
 
-.container2 .box{
-width: 29rem;
-height: 38rem;
-margin-bottom: 5rem;
-box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
-}
+  .container2 .box {
+    width: 29rem;
+    height: 38rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+  }
 
-.container2 .sob:hover{
-  background: #f8f4f1;
-  transition: 0.5s ease;
-}
+  .container2 .sob:hover {
+    background: #f8f4f1;
+    transition: 0.5s ease;
+  }
 
-.container2 .sub{
-width: 29rem;
-height: 28rem;
-}
+  .container2 .sub {
+    width: 29rem;
+    height: 28rem;
+  }
 
-.container2 .sub1{
-background-image: url('Public/Assets/Images/VirtualMeeting.svg');
-background-size: cover;
-background-position: center;
-}
+  .container2 .sub1 {
+    background-image: url("Public/Assets/Images/VirtualMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container2 .sub2{
-background-image: url('Public/Assets/Images/in-personMeeting.svg');
-background-size: cover;
-background-position: center;
-}
+  .container2 .sub2 {
+    background-image: url("Public/Assets/Images/in-personMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container2 .sob{
-display: flex;
-justify-content: end;
-align-items: center;
-background: #ffffff;
-width: 28rem;
-height: 10rem;
-}
+  .container2 .sob {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #ffffff;
+    width: 28rem;
+    height: 10rem;
+  }
 
-.container2 .sob p{
-font-size: 1.6rem;
-text-align: center;
-padding: 1rem;
-}
+  .container2 .sob p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+  }
 
-  /*----------------------------------------------- container3Find providers who can help with these topics
-------------------------------- */
+  /*------------------------------------ container3Find providers who can help with these topics------------------------------------ */
 
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 220vh;
+  }
 
-.container3{
-display: flex;
-justify-content: center;
-align-items: center;
-background: #3B4E68;
-min-width: 100vw;
-min-height: 220vh;
-}
+  .container3 .underground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 200rem;
+  }
 
-.container3 .underground{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-width: 50rem;
-height: 200rem;
-}
+  .container3 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 10rem;
+  }
 
-.container3 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50rem;
-height: 10rem;
-}
+  .container3 .sub {
+    width: 30rem;
+  }
 
-.container3 .sub{
-width: 30rem;
-}
+  .container3 .box1 h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #ffffff;
+  }
 
-.container3 .box1 h1{
-  font-size: 2.4rem;
-  text-align: center;
-  color: #ffffff;
-}
+  .container3 .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 30rem;
+    height: 40rem;
+  }
 
-.container3 .box2{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background: #ffffff;
-width: 30rem;
-height: 40rem;
-}
+  .container3 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    height: 17rem;
+  }
 
-.container3 .box2 .sob{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: column;
-width: 30rem;
-height: 17rem;
-}
+  .container3 .box2 .sob h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 
+  .container3 .box2 .sob p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+  }
 
-.container3 .box2 .sob h3{
-font-size: 1.6rem;
-text-align: center;
-}
+  .container3 .box2 .sob a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1590ff;
+    padding: 0.5rem;
+    float: left;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+  }
 
-.container3 .box2 .sob p{
-font-size: 1.6rem;
-line-height: 1.5;
-text-align: center;
-padding: 1rem;
-}
+  .container3 .box2 .sob a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
 
-.container3 .box2 .sob a{
-text-decoration: none;
-color: #ffffff;
-background: #1590ff;
-padding: 0.5rem;
-float: left;
-border-radius: 0.5rem;
-font-size: 1.2rem;
-}
+  .container3 .box2 .mix1 {
+    background-image: url("Public/Assets/Images/relationship.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .sob a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
-}
+  .container3 .box2 .mix2 {
+    background-image: url("Public/Assets/Images/mental_health.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .mix1{
-background-image: url('Public/Assets/Images/relationship.svg');
-background-size: cover;
-background-position: center;
-}
+  .container3 .box2 .mix3 {
+    background-image: url("Public/Assets/Images/man_looses_money.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
-.container3 .box2 .mix2{
-background-image: url('Public/Assets/Images/mental_health.svg');
-background-size: cover;
-background-position: center
-}
-
-.container3 .box2 .mix3{
-background-image: url('Public/Assets/Images/man_looses_money.svg');
-background-size: cover;
-background-position: center
-}
-
-.container3 .box2 .mix4{
-background-image: url('Public/Assets/Images/work_performance.svg');
-background-size: cover;
-background-position: center
-}
+  .container3 .box2 .mix4 {
+    background-image: url("Public/Assets/Images/work_performance.svg");
+    background-size: cover;
+    background-position: center;
+  }
 
   /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
-.container4{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-min-width: 100vw;
-min-height: 250vh;
-}
-
-.container4 .box1{
-display: flex;
-justify-content: center;
-align-items: center;
-width:50rem;
-height: 10rem;
-}
-
-.container4 .box2{
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-width: 30rem;
-height: 180rem;
-}
-
-
-.container4 .box2 .sob{
-display: flex;
-justify-content: space-around;
-align-items: end;
-width: 22rem;
-height: 27rem;
-}
-
-.container4 .box1 h1{
-font-size: 3rem;
-}
-
-.container4 .box1 a{
-font-size: 1.6rem;
-background: #1590ff;
-color:#ffffff;
-text-decoration: none;
-padding: 1rem;
-border-radius: 0.5rem;
-}
-
-.container4 .box1 a:hover{
-background: #3B4E68;
-transition: 0.5s ease;
-}
-
-.container4 .box2 .sob1{
-background-image: url('Public/Assets/Images/EbereSvg.svg');
-}
-
-.container4 .box2 .sob2{
-background-image: url('Public/Assets/Images/Tony.svg');
-}
-
-.container4 .box2 .sob3{
-background-image: url('Public/Assets/Images/blessing.svg');
-}
-
-.container4 .box2 .sob4{
-background-image: url('Public/Assets/Images/NgoziSvg.svg');
-}
-
-.container4 .box2 .sob5{
-background-image: url('Public/Assets/Images/JohnDoeSvg.svg');
-}
-
-.container4 .box2 p{
-width: 22rem;
-background: #ffffff;
-font-size: 2rem;
-font-weight: 600;
-text-align: center;
-}
-
-
-  footer{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-flex-direction: column;
-background: #3B4E68;
-min-width: 100vw;
-min-height: 100vh;
-}
-
-footer .box1{
-display: flex;
-justify-content: space-between;
-align-items: start;
-flex-wrap: wrap;
-height:60rem ;
-width: 50rem;
-}
-
-footer .box1 .sub{
-display: flex;
-justify-content: start;
-align-items: start;
-flex-direction: column;
-width: 15rem;
-height: 35rem;
-}
-
-footer .box1 .sub1{
-display: flex;
-justify-content: start;
-align-items: center;
-width: 50rem;
-height: 20rem;
-}
-
-footer .box1 .sub2{
-height: 30rem;
-}
-
-footer .box1 .sub h1{
-font-size: 2.5rem;
-color: #FEFFFF;
-}
-
-footer .box1 .sub p{
-font-size: 1.5rem;
-line-height: 3;
-color: #FEFFFF;
-}
-
-footer .box1 .sub a{
-font-size: 1.5rem;
-color: #FEFFFF;
-text-decoration: none;
-line-height: 2.5;
-}
-
-footer .box1 .sub a:hover {
-font-weight: 500;
-}
-
-footer .box1 .sub1 img{
-width: 30rem;
-}
-
-footer .box1 .sob img:hover {
-background-color: #31353a;
-border-radius: 5rem;
-}
-
-footer .box2{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-border-top: 0.1rem solid #b7c6db;
-width: 40rem;
-height: 10rem;
-}
-
-footer .box2 p{
-font-size: 1.5rem;
-color:#FEFFFFB2;
-
-}
-
-footer .box2 .set1 {
-display: flex;
-justify-content: end;
-align-items: center;
-text-align: center;
-width: 25rem;
-height: 5rem;
-}
-
-footer .box2 .set2 {
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-width: 25rem;
-height: 3rem;
-} 
-
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 250vh;
   }
-  
-  
+
+  .container4 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 10rem;
+  }
+
+  .container4 .box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 180rem;
+  }
+
+  .container4 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 22rem;
+    height: 27rem;
+  }
+
+  .container4 .box1 h1 {
+    font-size: 3rem;
+  }
+
+  .container4 .box1 a {
+    font-size: 1.6rem;
+    background: #1590ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .container4 .box1 a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container4 .box2 .sob1 {
+    background-image: url("Public/Assets/Images/EbereSvg.svg");
+  }
+
+  .container4 .box2 .sob2 {
+    background-image: url("Public/Assets/Images/Tony.svg");
+  }
+
+  .container4 .box2 .sob3 {
+    background-image: url("Public/Assets/Images/blessing.svg");
+  }
+
+  .container4 .box2 .sob4 {
+    background-image: url("Public/Assets/Images/NgoziSvg.svg");
+  }
+
+  .container4 .box2 .sob5 {
+    background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
+  }
+
+  .container4 .box2 p {
+    width: 22rem;
+    background: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+
+  footer .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    height: 60rem;
+    width: 50rem;
+  }
+
+  footer .box1 .sub {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 15rem;
+    height: 35rem;
+  }
+
+  footer .box1 .sub1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50rem;
+    height: 20rem;
+  }
+
+  footer .box1 .sub2 {
+    height: 30rem;
+  }
+
+  footer .box1 .sub h1 {
+    font-size: 2.5rem;
+    color: #feffff;
+  }
+
+  footer .box1 .sub p {
+    font-size: 1.5rem;
+    line-height: 3;
+    color: #feffff;
+  }
+
+  footer .box1 .sub a {
+    font-size: 1.5rem;
+    color: #feffff;
+    text-decoration: none;
+    line-height: 2.5;
+  }
+
+  footer .box1 .sub a:hover {
+    font-weight: 500;
+  }
+
+  footer .box1 .sub1 img {
+    width: 30rem;
+  }
+
+  footer .box1 .sob img:hover {
+    background-color: #31353a;
+    border-radius: 5rem;
+  }
+
+  footer .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-top: 0.1rem solid #b7c6db;
+    width: 40rem;
+    height: 10rem;
+  }
+
+  footer .box2 p {
+    font-size: 1.5rem;
+    color: #feffffb2;
+  }
+
+  footer .box2 .set1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+  }
+
+  footer .box2 .set2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    height: 3rem;
+  }
+}
