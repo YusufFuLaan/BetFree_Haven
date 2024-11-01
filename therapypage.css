@@ -1045,7 +1045,7 @@ footer .box2 .set2 {
 
 /*---------------------------------------------------------- Mobile-Screen-Style-------------------------------------------------------------- */
 
-@media (max-width: 600px) {
+@media (gmax-width: 600px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
