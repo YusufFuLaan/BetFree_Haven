@@ -132,3 +132,10 @@
   }
 
 
+  /* ----------------------------------------container1 style------------------------------------------ */
+
+.container1{
+background-image: url('Public/Assets/Images/makeImpact.svg');
+min-width: 100vw;
+min-height: 82vh;
+}
