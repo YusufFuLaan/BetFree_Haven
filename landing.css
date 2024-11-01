@@ -240,8 +240,8 @@ main > div > img {
   flex-direction: column;
   justify-content: space-around;
   background-color: #3b4e68;
-  height: 38rem;
-  padding: 5rem;
+  height: 35rem;
+  padding: 2rem;
 }
 
 .unique-features-section h1 {
@@ -250,16 +250,11 @@ main > div > img {
   color: #ffffff;
 }
 
-.unique-features-section p {
-  font-size: 2rem;
-  text-align: center;
-  color: #d9d9d9;
-}
-
 .unique-features-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .unique-features-container div {
@@ -275,6 +270,66 @@ main > div > img {
   border-radius: 50%;
   padding: 1.3rem;
 }
+
+.unique-features-container p {
+  font-size: 2rem;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+/*---------------------------------------------------------- Gamblin-Effect-Section-Style-------------------------------------------------------------- */
+
+.gambling-effect-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8rem;
+}
+
+.gambling-effect-section > div {
+  height: 50rem;
+  width: 45rem;
+}
+
+.gambling-effect-section > div > img {
+  height: 100%;
+  width: 100%;
+}
+
+.gambling-effect-section > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50rem;
+  width: 45rem;
+  line-height: 1.5;
+}
+
+.gambling-effect-section > article > h1 {
+  font-size: 3rem;
+}
+
+.gambling-effect-section > article > p {
+  text-align: justify;
+  font-size: 1.6rem;
+}
+
+.gambling-effect-section > article > button {
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  width: 12rem;
+  border: none;
+  background-color: #1590ff;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.gambling-effect-section > article > button:hover {
+  background-color: #3b4e68;
+  cursor: pointer;
+}
+
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
 }
