@@ -267,24 +267,25 @@ align-items: center;
 flex-direction: column;
 background: #3B4E68;
 min-width: 100vw;
-min-height: 100vh;
+min-height: 200vh;
 }
 
 footer .box1{
 display: flex;
-justify-content: space-between;
-align-items: start;
+justify-content: start;
+align-items: center;
+flex-direction: column;
 flex-wrap: wrap;
-height:60rem ;
+height:120rem ;
 width: 50rem;
 }
 
 footer .box1 .sub{
 display: flex;
-justify-content: start;
-align-items: start;
+justify-content: center;
+align-items: center;
 flex-direction: column;
-width: 15rem;
+width: 50rem;
 height: 35rem;
 }
 
@@ -293,12 +294,17 @@ display: flex;
 justify-content: start;
 align-items: center;
 width: 50rem;
-height: 20rem;
+height: 30rem;
 }
 
 footer .box1 .sub2{
 height: 30rem;
 }
+
+footer .box1 .sub4{
+height: 20rem;
+}
+
 
 footer .box1 .sub h1{
 font-size: 2.5rem;
@@ -324,13 +330,17 @@ transition: 0.5s ease;
 }
 
 footer .box1 .sub1 img{
-width: 30rem;
+width: 40rem;
 }
 
 footer .box1 .sob img:hover {
 background-color: #2e86f2;
 border-radius: 5rem;
 transition: 0.5s ease;
+}
+
+footer .box1 .sob{
+text-align: center;
 }
 
 footer .box2{
