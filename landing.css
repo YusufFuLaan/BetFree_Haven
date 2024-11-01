@@ -184,6 +184,34 @@ main > div > img {
 }
 
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
+
+.support-section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* .support-section-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.support-section-container > div > img {
+  border: 2px solid black;
+}
+
+.support-section-container > div > h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.support-section-container > div > p {
+  font-size: 1.6rem;
+}
+/*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
 }
 
