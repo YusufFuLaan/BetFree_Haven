@@ -1059,16 +1059,18 @@ height: 3rem;
   @media (max-width: 600px) {
     .logoContainer {
       padding: 2rem;
-      width: 85vw;
+min-width: 100vw;
     }
   
     .subheaderContainer {
       display: flex;
       justify-content: center;
       align-items: center;
+      min-width: 100vw;
       height: 6rem;
       background-color: #3b4e68;
-    }
+
+}
   
     .menuContainer {
       display: block;
