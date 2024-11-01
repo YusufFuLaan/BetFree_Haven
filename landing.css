@@ -137,6 +137,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 8rem;
   background-color: #dbf6ff;
 }
@@ -174,7 +175,7 @@ main > article > button:hover {
 }
 
 main > div {
-  height: 45rem;
+  height: 42rem;
   width: 45rem;
 }
 
@@ -185,31 +186,46 @@ main > div > img {
 
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 
-.support-section-container {
+.support-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 2rem;
 }
 
-/* .support-section-container > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
-.support-section-container > div > img {
-  border: 2px solid black;
+.support-section > div {
+  height: 43rem;
+  width: 36rem;
+  margin: 2rem;
+  border: 2px solid firebrick;
+  transition: 0.5s ease;
+}
+.support-section > div:hover {
+  background-color: #d6d6d6;
 }
 
-.support-section-container > div > h2 {
+.support-section > div > img {
+  width: 100%;
+}
+
+.support-section-heading-container {
   display: flex;
   align-items: center;
+}
+
+.support-section-heading-container > img {
+  padding-right: 3rem;
+}
+
+.support-section-heading-container > h2 {
   font-size: 2rem;
 }
 
-.support-section-container > div > p {
+.support-section > div > p {
   font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1.5;
 }
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
