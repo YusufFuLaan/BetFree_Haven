@@ -206,7 +206,7 @@ width: 52rem;
 
 
 .container2 .box .sub2{
-background-image: url('Public/Assets/Images/dailyLimit.svg');
+background-image: url('Public/Assets/Images/man&coin.jpg');
 background-size: cover;
 background-position: center;
 width: 51rem;
@@ -521,7 +521,7 @@ width: 52rem;
 
 
 .container2 .box .sub2{
-background-image: url('Public/Assets/Images/selfAssessmemt.svg');
+background-image: url('Public/Assets/Images/man&coin.jpg');
 background-size: cover;
 background-position: center;
 width: 51rem;
@@ -733,7 +733,7 @@ min-height: 5vh;
 
 .container1 .box{
 align-content: end;
-width: 65rem;
+width: 55rem;
 height: 5rem;
 }
 
@@ -754,7 +754,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-width: 100vw;
-min-height: 250vh;
+min-height: 230vh;
 }
 
 .container2 .box{
@@ -797,7 +797,7 @@ width: 50rem;
 
 
 .container2 .box .sub2{
-background-image: url('Public/Assets/Images/selfAssessmemt.svg');
+background-image: url('Public/Assets/Images/man&coin.jpg');
 background-size: cover;
 background-position: center;
 width: 50rem;
