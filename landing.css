@@ -415,6 +415,58 @@ main > div > img {
   width: 15rem;
 }
 
+/*---------------------------------------------------------- Gamblin-Effect-Section-Style-------------------------------------------------------------- */
+
+.subscribe-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8rem;
+}
+
+.subscribe-section > div {
+  height: 30rem;
+  width: 35rem;
+}
+
+.subscribe-section > div > img {
+  height: 100%;
+  width: 100%;
+}
+
+.subscribe-section > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25rem;
+  width: 45rem;
+  line-height: 1.5;
+}
+
+.subscribe-section > article > h1 {
+  font-size: 3rem;
+}
+
+.subscribe-section > article > p {
+  text-align: justify;
+  font-size: 1.6rem;
+}
+
+.subscribe-section > article > button {
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  width: 12rem;
+  border: none;
+  background-color: #1590ff;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.subscribe-section > article > button:hover {
+  background-color: #3b4e68;
+  cursor: pointer;
+}
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
 }
