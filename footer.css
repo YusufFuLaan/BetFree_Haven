@@ -272,7 +272,11 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     min-width: 100vw;
+<<<<<<< HEAD
     height: 175vh;
+=======
+    height: 160vh;
+>>>>>>> 2c384d720113073ed4de4901fe187b574512348b
   }
 
   footer .box1 {
