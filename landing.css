@@ -775,6 +775,67 @@ footer .box2 .set2 {
     cursor: pointer;
   }
 
+  /*---------------------------------------------------------- Therapist-section-Style-------------------------------------------------------------- */
+
+  .therapist-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    padding: 2rem;
+  }
+
+  .therapist-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .therapist-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+
+  .therapist-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+  }
+
+  .john,
+  .blessing {
+    display: none !important;
+  }
+
+  .therapist-container img {
+    height: 16rem;
+  }
+
+  .therapist-container p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .therapist-section > button {
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    width: 12rem;
+    border: none;
+    background-color: #1590ff;
+    color: #ffffff;
+    transition: 0.5s ease;
+  }
+
+  .therapist-section > button:hover {
+    background-color: #3b4e68;
+    cursor: pointer;
+    width: 15rem;
+  }
+
   footer {
     display: flex;
     justify-content: space-evenly;
