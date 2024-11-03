@@ -356,7 +356,7 @@ main > div > img {
 
 .story-teller {
   align-self: flex-start;
-  margin-left: 13rem;
+  margin-left: 12rem;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -429,7 +429,7 @@ main > div > img {
 
 .subscribe-section > div {
   height: 30rem;
-  width: 35rem;
+  width: 45rem;
 }
 
 .subscribe-section > div > img {
@@ -442,14 +442,14 @@ main > div > img {
   flex-direction: column;
   justify-content: space-around;
   height: 30rem;
-  width: 35rem;
+  width: 45rem;
   padding: 2.5rem;
   background-color: #f8fdff;
   line-height: 1.5;
 }
 
 .subscribe-section > article > h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -458,18 +458,33 @@ main > div > img {
   font-size: 1.6rem;
 }
 
-.subscribe-section > article > button {
-  font-size: 1.6rem;
+.subscribe-section > article > form {
+  align-self: center;
+}
+
+#email {
+  width: 25rem;
+  height: 4rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.4rem;
+  background-color: #d9d9d9;
+}
+
+#subscribe {
+  font-size: 1.4rem;
   padding: 1.2rem;
-  width: 12rem;
+  width: 10rem;
   border: none;
   background-color: #1590ff;
   color: #ffffff;
-  align-self: center;
   transition: 0.5s ease;
+  border-radius: 2rem;
+  margin-left: -4rem;
 }
 
-.subscribe-section > article > button:hover {
+#subscribe:hover {
   background-color: #3b4e68;
   cursor: pointer;
 }
@@ -912,18 +927,33 @@ footer .box2 .set2 {
     font-size: 1.6rem;
   }
 
-  .subscribe-section > article > button {
-    font-size: 1.6rem;
+  .subscribe-section > article > form {
+    align-self: center;
+  }
+
+  #email {
+    width: 25rem;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+    background-color: #d9d9d9;
+  }
+
+  #subscribe {
+    font-size: 1.4rem;
     padding: 1.2rem;
-    width: 12rem;
+    width: 10rem;
     border: none;
     background-color: #1590ff;
     color: #ffffff;
-    align-self: center;
     transition: 0.5s ease;
+    border-radius: 2rem;
+    margin-left: -4rem;
   }
 
-  .subscribe-section > article > button:hover {
+  #subscribe:hover {
     background-color: #3b4e68;
     cursor: pointer;
   }
