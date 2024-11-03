@@ -390,7 +390,6 @@ main > div > img {
 }
 
 .therapist-container img {
-  /* border-radius: 50%; */
   height: 16rem;
 }
 
@@ -419,10 +418,11 @@ main > div > img {
 
 .subscribe-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 8rem;
+  border: 3px solid #3b4e68;
 }
 
 .subscribe-section > div {
@@ -439,13 +439,16 @@ main > div > img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 25rem;
-  width: 45rem;
+  height: 30rem;
+  width: 35rem;
+  padding: 2.5rem;
+  background-color: #f8fdff;
   line-height: 1.5;
 }
 
 .subscribe-section > article > h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .subscribe-section > article > p {
@@ -460,6 +463,7 @@ main > div > img {
   border: none;
   background-color: #1590ff;
   color: #ffffff;
+  align-self: center;
   transition: 0.5s ease;
 }
 
@@ -467,7 +471,9 @@ main > div > img {
   background-color: #3b4e68;
   cursor: pointer;
 }
+
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
+
 @media (max-width: 768px) {
 }
 
