@@ -539,6 +539,7 @@ width: 27rem;
 display: flex;
 flex-direction: row;
 height: 35rem;
+border: none;
 width: 60rem;
 }
   
