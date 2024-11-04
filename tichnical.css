@@ -899,7 +899,7 @@ width: 30rem;
 
   .container2 .box .sub2a {
     align-content: center;
-    width: 32rem;
+    width: 45rem;
     height: 12rem;
   }
 
@@ -916,7 +916,7 @@ width: 30rem;
   
   .container2 .box .sub2 p, .sub2a p {
     font-size: 1.81rem;
-    text-align: justify;
+    text-align: center;
     padding: 1rem 0;
     color: #00000099;
   }
