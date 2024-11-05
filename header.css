@@ -133,6 +133,68 @@ header > ul li a:hover {
 
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 @media (max-width: 768px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 64%;
+    margin-left: 14rem;
+  }
+
+  .numberContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .numberContainer img {
+    width: 1.8rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+
+  #search {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  header > ul {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -159,40 +221,101 @@ header > ul li a:hover {
 
   .contactContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 68%;
+    margin-left: 8rem;
   }
 
   .numberContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 13rem;
+    width: 18rem;
     height: 3rem;
   }
 
   .numberContainer img {
-    width: 1.5rem;
+    width: 1.7rem;
   }
 
   .numberContainer p {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   #search {
-    width: 16rem;
-    height: 2rem;
+    width: 17rem;
+    height: 2.8rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
     background-image: url("Public/Assets/Icons/search.svg");
     background-repeat: no-repeat;
-    background-position: 1.5rem 0.5rem;
-    background-size: 1.3rem;
-    font-size: 1.2rem;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-left: 12rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   header > ul {
