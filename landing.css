@@ -337,8 +337,6 @@ main > div > img {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  height: 65vh;
   margin-bottom: 8rem;
 }
 .story-section h1 {
@@ -346,13 +344,13 @@ main > div > img {
   margin-bottom: 2rem;
 }
 .story {
+  width: 80vw;
+  text-align: justify;
+  padding: 4rem 8rem;
+  line-height: 2;
   font-size: 1.6rem;
   background-color: #3b4e68;
   color: #ffffff;
-  text-align: justify;
-  padding: 4rem 8rem;
-  width: 80vw;
-  line-height: 2;
 }
 
 .story-teller {
@@ -797,34 +795,6 @@ footer .box2 .set2 {
   }
 
   /*---------------------------------------------------------- Story-Section-Style-------------------------------------------------------------- */
-  .story-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 80vh;
-  }
-  .story-section h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
-  .story {
-    font-size: 1.6rem;
-    background-color: #3b4e68;
-    color: #ffffff;
-    text-align: justify;
-    padding: 4rem;
-    width: 70vw;
-    line-height: 2;
-  }
-
-  .story-teller {
-    align-self: flex-start;
-    margin-left: 11.5rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
 
   /*---------------------------------------------------------- Therapist-section-Style-------------------------------------------------------------- */
 
@@ -1341,34 +1311,6 @@ footer .box2 .set2 {
   }
 
   /*---------------------------------------------------------- Story-Section-Style-------------------------------------------------------------- */
-  .story-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 70vh;
-  }
-  .story-section h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
-  .story {
-    font-size: 1.6rem;
-    background-color: #3b4e68;
-    color: #ffffff;
-    text-align: justify;
-    padding: 4rem;
-    width: 70vw;
-    line-height: 2;
-  }
-
-  .story-teller {
-    align-self: flex-start;
-    margin-left: 11.5rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
 
   /*---------------------------------------------------------- Therapist-section-Style-------------------------------------------------------------- */
 
