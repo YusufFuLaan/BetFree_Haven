@@ -1215,7 +1215,7 @@ footer .box2 .set2 {
     flex-direction: column;
     justify-content: space-around;
     background-color: #3b4e68;
-    height: 50rem;
+    height: 85rem;
     padding: 3rem;
   }
 
@@ -1231,7 +1231,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 50rem;
+    width: 30rem;
   }
 
   .unique-features-container div {
@@ -1558,5 +1558,87 @@ footer .box2 .set2 {
     text-align: center;
     width: 25rem;
     height: 3rem;
+  }
+}
+
+@media (max-width: 426px) {
+  main > article {
+    height: 28rem;
+    width: 55rem;
+  }
+
+  main > article > h1 {
+    font-size: 4rem;
+  }
+
+  .gambling-effect-section {
+    padding: 5rem;
+  }
+
+  .gambling-effect-section > div {
+    height: 35rem;
+    width: 55rem;
+    margin-bottom: 3rem;
+  }
+
+  .gambling-effect-section > article {
+    height: 52rem;
+    width: 55rem;
+  }
+
+  .gambling-effect-section > article > h1 {
+    font-size: 2.5rem;
+  }
+
+  .story-section {
+    margin-bottom: 8rem;
+  }
+
+  .story-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .story {
+    padding: 3rem;
+    line-height: 2;
+    font-size: 1.6rem;
+  }
+
+  .story-teller {
+    margin-left: 6rem;
+  }
+
+  .therapist-section {
+    height: 94rem;
+    padding: 2rem;
+  }
+
+  .therapist-container {
+    width: 50vw;
+  }
+
+  .therapist-container div {
+    margin-bottom: 2rem;
+  }
+
+  .subscribe-section {
+    padding: 5rem;
+  }
+
+  .subscribe-section > div {
+    height: 30rem;
+    width: 50rem;
+  }
+
+  .subscribe-section > article {
+    height: 27rem;
+    width: 50rem;
+    padding: 2.5rem;
+  }
+
+  .subscribe-section > article > h1 {
+    font-size: 2.5rem;
+    text-align: center;
   }
 }
