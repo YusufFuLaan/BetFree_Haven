@@ -213,7 +213,7 @@ header > ul li a:hover {
 
 /*---------------------------------------------------------- Mobile-Screen-Style-1- ------------------------------------------------------------- */
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
@@ -280,7 +280,7 @@ header > ul li a:hover {
 
 /*---------------------------------------------------------- Mobile-Screen-Style-2 ------------------------------------------------------------- */
 
-@media (max-width: 475px) {
+@media (max-width: 550px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
@@ -308,6 +308,69 @@ header > ul li a:hover {
     align-items: center;
     width: 45%;
     margin-left: 12rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+}
+
+/*---------------------------------------------------------- Mobile-Screen-Style-3 ------------------------------------------------------------- */
+
+@media (max-width: 350px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 4rem;
   }
 
   .numberContainer {
