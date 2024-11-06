@@ -101,6 +101,20 @@ header > ul li a:hover {
   padding-left: 0.8rem;
 }
 
+.login {
+  padding: 1rem;
+  border-radius: 2.5rem 6rem;
+  color: #ffffff;
+  background-color: #1590ff;
+  font-size: 1.4rem;
+}
+
+.login:hover {
+  background-color: #ffffff;
+  color: #1590ff;
+  font-weight: bold;
+}
+
 .header-dropdown {
   position: relative;
   display: inline-block;
@@ -197,6 +211,8 @@ header > ul li a:hover {
   }
 }
 
+/*---------------------------------------------------------- Mobile-Screen-Style-1- ------------------------------------------------------------- */
+
 @media (max-width: 600px) {
   .logoContainer {
     padding: 2rem;
@@ -262,7 +278,9 @@ header > ul li a:hover {
   }
 }
 
-@media (max-width: 426px) {
+/*---------------------------------------------------------- Mobile-Screen-Style-2 ------------------------------------------------------------- */
+
+@media (max-width: 475px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
