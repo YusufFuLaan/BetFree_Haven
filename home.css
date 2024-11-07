@@ -588,6 +588,69 @@ footer .box2 .set2 {
 /*---------------------------------------------------------- Tablet-Screen-Style-------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 64%;
+    margin-left: 14rem;
+  }
+
+  .numberContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .numberContainer img {
+    width: 1.8rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+
+  #search {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
   /*---------------------------------------------------------- Hero-Style-------------------------------------------------------------- */
 
   main {
@@ -1038,11 +1101,7 @@ footer .box2 .set2 {
 
 /*---------------------------------------------------------- Mobile-Screen-Style-------------------------------------------------------------- */
 
-@media (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-
+@media (max-width: 650px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
@@ -1066,40 +1125,40 @@ footer .box2 .set2 {
 
   .contactContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 68%;
+    margin-left: 8rem;
   }
 
   .numberContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 13rem;
+    width: 18rem;
     height: 3rem;
   }
 
   .numberContainer img {
-    width: 1.5rem;
+    width: 1.7rem;
   }
 
   .numberContainer p {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   #search {
-    width: 16rem;
-    height: 2rem;
+    width: 17rem;
+    height: 2.8rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
     background-image: url("Public/Assets/Icons/search.svg");
     background-repeat: no-repeat;
-    background-position: 1.5rem 0.5rem;
-    background-size: 1.3rem;
-    font-size: 1.2rem;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   header > ul {
@@ -1215,7 +1274,7 @@ footer .box2 .set2 {
     flex-direction: column;
     justify-content: space-around;
     background-color: #3b4e68;
-    height: 85rem;
+    height: 50rem;
     padding: 3rem;
   }
 
@@ -1231,7 +1290,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 30rem;
+    width: 50rem;
   }
 
   .unique-features-container div {
@@ -1280,13 +1339,13 @@ footer .box2 .set2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 45rem;
+    height: 50rem;
     width: 55rem;
     line-height: 1.5;
   }
 
   .gambling-effect-section > article > h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .gambling-effect-section > article > p {
@@ -1312,6 +1371,25 @@ footer .box2 .set2 {
 
   /*---------------------------------------------------------- Story-Section-Style-------------------------------------------------------------- */
 
+  .story-section {
+    margin-bottom: 8rem;
+  }
+
+  .story-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .story {
+    padding: 3rem;
+    line-height: 2;
+    font-size: 1.6rem;
+  }
+
+  .story-teller {
+    margin-left: 7rem;
+  }
+
   /*---------------------------------------------------------- Therapist-section-Style-------------------------------------------------------------- */
 
   .therapist-section {
@@ -1332,7 +1410,7 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 85vw;
   }
 
   .therapist-container div {
@@ -1561,14 +1639,108 @@ footer .box2 .set2 {
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 550px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-left: 12rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
   main > article {
     height: 28rem;
     width: 55rem;
   }
 
+  main > div {
+    height: 35rem;
+    width: 45rem;
+  }
+
   main > article > h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+
+  .support-section {
+    padding: 6rem;
+  }
+
+  .support-section > div {
+    height: 44rem;
+    width: 45rem;
+  }
+
+  .unique-features-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .unique-features-container {
+    width: 40rem;
+  }
+
+  .unique-features-container div {
+    height: 12rem;
+    margin: 2rem;
+  }
+
+  .unique-features-container img {
+    padding: 1.3rem;
+  }
+
+  .unique-features-container p {
+    font-size: 1.5rem;
   }
 
   .gambling-effect-section {
@@ -1587,7 +1759,7 @@ footer .box2 .set2 {
   }
 
   .gambling-effect-section > article > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .story-section {
@@ -1615,7 +1787,7 @@ footer .box2 .set2 {
   }
 
   .therapist-container {
-    width: 50vw;
+    width: 45vw;
   }
 
   .therapist-container div {
@@ -1638,7 +1810,386 @@ footer .box2 .set2 {
   }
 
   .subscribe-section > article > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+  }
+
+  #email {
+    width: 23rem;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  #subscribe {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-left: -4rem;
+  }
+}
+
+@media (max-width: 426px) {
+  main > article {
+    height: 28rem;
+    width: 55rem;
+  }
+
+  main > div {
+    height: 25rem;
+    width: 55rem;
+  }
+
+  main > article > h1 {
+    font-size: 2.6rem;
+  }
+
+  .support-section {
+    padding: 3.5rem;
+  }
+
+  .support-section > div {
+    height: 42rem;
+    width: 45rem;
+    margin-bottom: 6rem;
+  }
+
+  .support-section-heading-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .unique-features-section {
+    height: 80rem;
+    padding: 3rem;
+  }
+
+  .unique-features-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .unique-features-container {
+    width: 30rem;
+  }
+
+  .unique-features-container div {
+    height: 12rem;
+    margin: 2rem;
+  }
+
+  .unique-features-container img {
+    padding: 1.3rem;
+  }
+
+  .unique-features-container p {
+    font-size: 1.5rem;
+  }
+
+  .gambling-effect-section {
+    padding: 3rem;
+  }
+
+  .gambling-effect-section > div {
+    height: 28rem;
+    width: 55rem;
+    margin-bottom: 3rem;
+  }
+
+  .gambling-effect-section > article {
+    height: 50rem;
+    width: 55rem;
+  }
+
+  .gambling-effect-section > article > h1 {
+    font-size: 2rem;
+  }
+
+  .gambling-effect-section > article > p {
+    font-size: 1.4rem;
+  }
+
+  .story-section {
+    margin-bottom: 8rem;
+  }
+
+  .story-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .story {
+    width: 90vw;
+
+    padding: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+  }
+
+  .story-teller {
+    margin-left: 2.5rem;
+  }
+
+  .therapist-section {
+    height: 94rem;
+    padding: 2rem;
+  }
+
+  .therapist-container {
+    width: 45vw;
+  }
+
+  .therapist-container div {
+    margin-bottom: 2rem;
+  }
+
+  .subscribe-section {
+    padding: 2rem;
+  }
+
+  .subscribe-section > div {
+    height: 20rem;
+    width: 55rem;
+  }
+
+  .subscribe-section > article {
+    height: 26rem;
+    width: 55rem;
+    padding: 2.5rem;
+  }
+
+  .subscribe-section > article > h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  #email {
+    width: 20rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  #subscribe {
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-left: -4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 4rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
+  main {
+    padding: 3rem;
+  }
+
+  main > article {
+    height: 25rem;
+    width: 55rem;
+  }
+
+  main > div {
+    height: 25rem;
+    width: 55rem;
+  }
+
+  main > article > h1 {
+    font-size: 2.5rem;
+  }
+
+  .support-section {
+    padding: 2.5rem;
+  }
+
+  .support-section > div {
+    height: 40rem;
+    width: 45rem;
+    margin-bottom: 6rem;
+  }
+
+  .support-section-heading-container h2 {
+    font-size: 1.7rem;
+  }
+
+  .unique-features-section {
+    height: 80rem;
+    padding: 2rem;
+  }
+
+  .unique-features-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .unique-features-container {
+    width: 30rem;
+  }
+
+  .unique-features-container div {
+    height: 12rem;
+    margin: 2rem;
+  }
+
+  .unique-features-container img {
+    padding: 1.3rem;
+  }
+
+  .unique-features-container p {
+    font-size: 1.5rem;
+  }
+
+  .gambling-effect-section {
+    padding: 2rem;
+  }
+
+  .gambling-effect-section > div {
+    height: 25rem;
+    width: 55rem;
+    margin-bottom: 3rem;
+  }
+
+  .gambling-effect-section > article {
+    height: 57rem;
+    width: 55rem;
+  }
+
+  .gambling-effect-section > article > h1 {
+    font-size: 1.8rem;
+  }
+
+  .gambling-effect-section > article > p {
+    font-size: 1.4rem;
+  }
+
+  .story-section {
+    margin-bottom: 8rem;
+  }
+
+  .story-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .story {
+    padding: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+    width: 90vw;
+  }
+
+  .story-teller {
+    margin-left: 2rem;
+  }
+
+  .therapist-section {
+    height: 94rem;
+    padding: 2rem;
+  }
+
+  .therapist-container {
+    width: 45vw;
+  }
+
+  .therapist-container div {
+    margin-bottom: 2rem;
+  }
+
+  .subscribe-section {
+    padding: 0rem;
+  }
+
+  .subscribe-section > div {
+    height: 20rem;
+    width: 55rem;
+  }
+
+  .subscribe-section > article {
+    height: 28rem;
+    width: 55rem;
+    padding: 2.5rem;
+  }
+
+  .subscribe-section > article > h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  #email {
+    width: 20rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  #subscribe {
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-left: -4rem;
   }
 }
