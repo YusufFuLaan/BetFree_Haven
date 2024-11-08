@@ -76,7 +76,6 @@ header > ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
   height: 6rem;
   padding: 0 8rem;
 }
@@ -90,6 +89,7 @@ header > ul li a {
   text-decoration: none;
   color: #0a0a0a;
   padding: 1.9rem 1rem;
+  transition: 0.5s ease;
 }
 
 header > ul li a:hover {
@@ -98,6 +98,20 @@ header > ul li a:hover {
 
 .fa-solid {
   padding-left: 0.8rem;
+}
+
+.login {
+  padding: 1rem;
+  border-radius: 2.5rem 6rem;
+  color: #ffffff;
+  background-color: #1590ff;
+  font-size: 1.4rem;
+}
+
+.login:hover {
+  background-color: #ffffff;
+  color: #1590ff;
+  font-weight: bold;
 }
 
 .header-dropdown {
@@ -124,7 +138,6 @@ header > ul li a:hover {
 .header-dropdown-content a:hover {
   padding-left: 3rem;
   border-bottom: 1.2px solid #1590ff;
-  transition: 0.5s ease;
 }
 
 .header-dropdown:hover .header-dropdown-content {
@@ -314,45 +327,21 @@ footer .box2 .set2 {
 /* ----------------------------------------------TABLET STYLING----------------------------------------------------- */
 
 @media (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-  }
-
-  html {
-    font-size: 50%;
-  }
-
-  ol,
-  ul,
-  li {
-    list-style: none;
-  }
-
   .logoContainer {
-    padding: 2.5rem 0 2.5rem 8rem;
-    width: 60rem;
+    padding: 2rem;
+    width: 85vw;
   }
 
-  .logoContainer img {
-    width: 100%;
-  }
   .subheaderContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 6rem;
     background-color: #3b4e68;
   }
 
   .menuContainer {
-    display: none;
+    display: block;
   }
 
   .material-symbols-outlined {
@@ -362,89 +351,43 @@ footer .box2 .set2 {
   .contactContainer {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    align-items: center;
+    width: 64%;
+    margin-left: 14rem;
   }
 
   .numberContainer {
     display: flex;
-    justify-content: space-between;
-    width: 18rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .numberContainer img {
+    width: 1.8rem;
   }
 
   .numberContainer p {
     color: #ffffff;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   #search {
     width: 20rem;
     height: 3rem;
-    padding-left: 4rem;
+    padding-left: 6rem;
     border-radius: 2rem;
     border: none;
     background-image: url("Public/Assets/Icons/search.svg");
     background-repeat: no-repeat;
-    background-position: 1.5rem 0.5rem;
-    font-size: 1.4rem;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.6rem;
+    font-size: 1.6rem;
   }
 
   header > ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 6rem;
-    padding: 0 8rem;
-  }
-
-  header > ul li {
-    font-size: 1.6rem;
-    font-weight: 480;
-  }
-
-  header > ul li a {
-    text-decoration: none;
-    color: #0a0a0a;
-    padding: 1.9rem 1rem;
-  }
-
-  header > ul li a:hover {
-    color: #1590ff;
-  }
-
-  .fa-solid {
-    padding-left: 0.8rem;
-  }
-
-  .header-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .header-dropdown-content {
-    position: absolute;
     display: none;
-    top: 3.9rem;
-    left: -1rem;
-    width: 28rem;
-    background-color: #ffffff;
-    z-index: 1;
-  }
-
-  .header-dropdown-content a {
-    display: block;
-    padding: 1rem;
-    border: 1px solid rgb(230, 230, 230);
-  }
-
-  .header-dropdown-content a:hover {
-    padding-left: 3rem;
-    border-bottom: 1.2px solid #1590ff;
-    transition: 0.5s ease;
-  }
-
-  .header-dropdown:hover .header-dropdown-content {
-    display: block;
   }
 
   /* ----------------------------------------------CONTAINER1 STYLING----------------------------------------------------- */
@@ -639,28 +582,7 @@ footer .box2 .set2 {
 }
 
 /* ----------------------------------------------MOBILE STYLING----------------------------------------------------- */
-@media (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-  }
-
-  html {
-    font-size: 50%;
-  }
-
-  ol,
-  ul,
-  li {
-    list-style: none;
-  }
-
+@media (max-width: 650px) {
   .logoContainer {
     padding: 2rem;
     width: 85vw;
@@ -684,40 +606,40 @@ footer .box2 .set2 {
 
   .contactContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 68%;
+    margin-left: 8rem;
   }
 
   .numberContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 13rem;
+    width: 18rem;
     height: 3rem;
   }
 
   .numberContainer img {
-    width: 1.5rem;
+    width: 1.7rem;
   }
 
   .numberContainer p {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   #search {
-    width: 16rem;
-    height: 2rem;
+    width: 17rem;
+    height: 2.8rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
     background-image: url("Public/Assets/Icons/search.svg");
     background-repeat: no-repeat;
-    background-position: 1.5rem 0.5rem;
-    background-size: 1.3rem;
-    font-size: 1.2rem;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   header > ul {
@@ -921,5 +843,127 @@ footer .box2 .set2 {
     text-align: center;
     width: 25rem;
     height: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-left: 12rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 4rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 17rem;
+    height: 2.6rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
   }
 }
