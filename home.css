@@ -998,8 +998,8 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     background: #3b4e68;
-    min-width: 100vw;
-    min-height: 120vh;
+    width: 100vw;
+    height: 100vh;
   }
 
   footer .box1 {
@@ -1007,8 +1007,8 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: start;
     flex-wrap: wrap;
-    height: 67rem;
-    width: 90rem;
+    height: 53.6rem;
+    width: 100%;
   }
 
   footer .box1 .sub {
@@ -1016,41 +1016,41 @@ footer .box2 .set2 {
     justify-content: space-between;
     align-items: start;
     flex-direction: column;
-    width: 25rem;
-    height: 35rem;
+    width: 23rem;
+    height: 28rem;
   }
 
   footer .box1 .sub1 {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 80rem;
-    height: 30rem;
+    width: 64rem;
+    height: 24rem;
   }
   footer .box1 .sub2 {
-    height: 35rem;
+    height: 28rem;
   }
 
   footer .box1 .sub4 {
-    height: 25rem;
+    height: 20rem;
   }
 
   footer .box1 .sub h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     color: #feffff;
   }
 
   footer .box1 .sub p {
-    font-size: 2rem;
-    line-height: 3;
+    font-size: 1.6rem;
+    line-height: 2.4;
     color: #feffff;
   }
 
   footer .box1 .sub a {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #feffff;
     text-decoration: none;
-    line-height: 2;
+    line-height: 1.6;
   }
 
   footer .box1 .sub a:hover {
@@ -1059,13 +1059,13 @@ footer .box2 .set2 {
   }
 
   footer .box1 .sub1 img {
-    width: 40rem;
+    width: 32rem;
   }
 
   footer .box1 .sob img:hover {
     background-color: #2e86f2;
     transition: 0.5s ease;
-    border-radius: 5rem;
+    border-radius: 4rem;
   }
 
   footer .box2 {
@@ -1073,12 +1073,12 @@ footer .box2 .set2 {
     justify-content: space-between;
     align-items: center;
     border-top: 0.1rem solid #b7c6db;
-    width: 90rem;
-    height: 5rem;
+    width: 100%;
+    height: 4rem;
   }
 
   footer .box2 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #feffffb2;
   }
 
@@ -1086,16 +1086,16 @@ footer .box2 .set2 {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 40rem;
-    height: 3rem;
+    width: 32rem;
+    height: 2.4rem;
   }
 
   footer .box2 .set2 {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 30rem;
-    height: 3rem;
+    width: 24rem;
+    height: 2.4rem;
   }
 }
 
@@ -1529,8 +1529,8 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     background: #3b4e68;
-    min-width: 100vw;
-    height: 175vh;
+    width: 100vw;
+    height: 170vh;
   }
 
   footer .box1 {
@@ -1539,8 +1539,8 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100rem;
-    width: 50rem;
+    height: 160rem;
+    width: 100%;
   }
 
   footer .box1 .sub {
@@ -1548,7 +1548,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50rem;
+    width: 100%;
     height: 20rem;
   }
 
@@ -1561,29 +1561,30 @@ footer .box2 .set2 {
   }
 
   footer .box1 .sub2 {
-    height: 30rem;
+    height: 70rem;
   }
 
   footer .box1 .sub4 {
-    height: 20rem;
+    height: 40rem;
   }
 
   footer .box1 .sub h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #feffff;
   }
 
   footer .box1 .sub p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 3;
     color: #feffff;
   }
 
   footer .box1 .sub a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #feffff;
     text-decoration: none;
     line-height: 2.5;
+    text-align: center;
   }
 
   footer .box1 .sub a:hover {
