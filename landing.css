@@ -1012,7 +1012,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
   }
 
   footer .box1 {
@@ -1543,7 +1543,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 170vh;
+    height: 190vh;
   }
 
   footer .box1 {
@@ -1570,7 +1570,7 @@ footer .box2 .set2 {
     justify-content: start;
     align-items: center;
     width: 50rem;
-    height: 30rem;
+    height: 25rem;
   }
 
   footer .box1 .sub2 {
@@ -1854,7 +1854,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 170vh;
+    height: 190vh;
   }
 
   footer .box1 {
