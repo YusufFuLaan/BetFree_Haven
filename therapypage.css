@@ -590,9 +590,9 @@ footer .box2 .set2 {
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 120vh;
+    align-items: flex-start;
+    width: 100vw;
+    height: 70vh;
     background-image: url("Public/Assets/Images/consult.jpg");
     background-position: center;
     background-size: cover;
@@ -603,7 +603,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: center;
     width: 80rem;
-    height: 48rem;
+    height: 30rem;
   }
 
   .container1 .box .sob1 {
@@ -617,7 +617,7 @@ footer .box2 .set2 {
   .container1 .sob1 h1 {
     display: flex;
     color: #ffffff;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .container1 .box .sub {
@@ -636,13 +636,13 @@ footer .box2 .set2 {
     overflow: visible;
     background: #ffffff;
     min-width: 100vw;
-    min-height: 150vh;
+    min-height: 100vh;
   }
 
   .container2 .overlay {
     display: flex;
     position: absolute;
-    top: -10rem;
+    top: -8rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -652,7 +652,7 @@ footer .box2 .set2 {
   }
 
   .container2 .box {
-    width: 29rem;
+    width: 49rem;
     height: 38rem;
     margin-bottom: 5rem;
     box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
@@ -664,7 +664,7 @@ footer .box2 .set2 {
   }
 
   .container2 .sub {
-    width: 29rem;
+    width: 100%;
     height: 28rem;
   }
 
@@ -685,12 +685,12 @@ footer .box2 .set2 {
     justify-content: end;
     align-items: center;
     background: #ffffff;
-    width: 28rem;
+    width: 100%;
     height: 10rem;
   }
 
   .container2 .sob p {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 1rem;
   }
@@ -702,8 +702,8 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: center;
     background: #3b4e68;
-    min-width: 100vw;
-    min-height: 200vh;
+    width: 100vw;
+    min-height: 120vh;
   }
 
   .container3 .underground {
@@ -711,7 +711,7 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 90rem;
+    width: 100%;
     height: 120rem;
   }
 
@@ -719,16 +719,16 @@ footer .box2 .set2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90rem;
-    height: 10rem;
+    width: 100%;
+    height: 5rem;
   }
 
   .container3 .sub {
-    width: 30rem;
+    width: 100%;
   }
 
   .container3 .box1 h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     text-align: center;
     color: #ffffff;
   }
@@ -739,7 +739,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #ffffff;
     width: 64rem;
-    height: 19rem;
+    height: 25rem;
   }
 
   .container3 .box2 .sob {
@@ -748,15 +748,15 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     width: 30rem;
-    height: 17rem;
+    height: 19rem;
   }
 
   .container3 .box2 .sob h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
   .container3 .box2 .sob p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.5;
     padding: 1rem;
   }
@@ -768,7 +768,7 @@ footer .box2 .set2 {
     padding: 0.5rem;
     float: left;
     border-radius: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .container3 .box2 .sob a:hover {
@@ -807,14 +807,14 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 200vh;
+    min-height: 80vh;
   }
 
   .container4 .box1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80rem;
+    width: 100%;
     height: 10rem;
   }
 
@@ -823,8 +823,8 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 60rem;
-    height: 100rem;
+    width: 70rem;
+    height: 40rem;
   }
 
   .container4 .box2 .sob {
@@ -836,11 +836,11 @@ footer .box2 .set2 {
   }
 
   .container4 .box1 h1 {
-    font-size: 2.4rem;
+    font-size: 4rem;
   }
 
   .container4 .box1 a {
-    font-size: 1.6rem;
+    font-size: 2rem;
     background: #1590ff;
     color: #ffffff;
     text-decoration: none;
@@ -862,6 +862,7 @@ footer .box2 .set2 {
   }
 
   .container4 .box2 .sob3 {
+    display: none;
     background-image: url("Public/Assets/Images/blessing.svg");
   }
 
@@ -870,6 +871,7 @@ footer .box2 .set2 {
   }
 
   .container4 .box2 .sob5 {
+    display: none;
     background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
   }
 
