@@ -735,7 +735,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #dbf6ff;
     min-width: 100vw;
-    min-height: 80vh;
+    min-height: 40vh;
   }
 
   .container1 .box {
@@ -748,7 +748,7 @@ footer .box2 .set2 {
 
   .container1 .box h1 {
     padding-top: 5rem;
-    font-size: 6.4rem;
+    font-size: 4.5rem;
     text-align: center;
   }
 
@@ -756,9 +756,9 @@ footer .box2 .set2 {
   .container2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-width: 100vw;
-    min-height: 190vh;
+    min-height: 170vh;
   }
 
   .container2 .cover {
@@ -766,8 +766,8 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 70rem;
-    height: 140rem;
+    width: 100%;
+    height: 160rem;
   }
 
   .container2 .box {
@@ -820,7 +820,7 @@ footer .box2 .set2 {
     background-image: url("Public/Assets/Images/store.jpg");
     background-size: cover;
     background-position: center;
-    width: 30rem;
+    width: 35rem;
   }
 
   .container2 .box .sub2 {
@@ -842,13 +842,13 @@ footer .box2 .set2 {
   }
   .container2 .box .sub2 h1,
   .sub2a h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     text-align: center;
   }
 
   .container2 .box .sub2 p,
   .sub2a p {
-    font-size: 1.81rem;
+    font-size: 2.2rem;
     text-align: center;
     padding: 1rem 0;
     color: #00000099;
@@ -1030,9 +1030,263 @@ footer .box2 .set2 {
   header > ul {
     display: none;
   }
+
+  /* --------------------------Container1 styling-------------------------- */
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbf6ff;
+    min-width: 100vw;
+    min-height: 30vh;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 30rem;
+  }
+
+  .container1 .box h1 {
+    padding-top: 5rem;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  /* --------------------------------------------container2 styling-------------------------------------------- */
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 100vw;
+    min-height: 170vh;
+  }
+
+  .container2 .cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 160rem;
+  }
+
+  .container2 .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 54rem;
+    height: 48rem;
+  }
+
+  .container2 .boz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 54rem;
+    height: 48rem;
+  }
+
+  .container2 .boxx {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    border: none;
+    width: 54rem;
+  }
+
+  .container2 .box .sub {
+    text-align: center;
+    align-content: center;
+    width: 40rem;
+    height: 24rem;
+    border-radius: 2.4rem;
+  }
+
+  .container2 .box .sub1a {
+    background-image: url("Public/Assets/Images/AcessDenied.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .box .sub1b {
+    background-image: url("Public/Assets/Images/BlockSite.svg");
+    background-size: auto;
+    background-position: center;
+  }
+
+  .container2 .box .sub1c {
+    background-image: url("Public/Assets/Images/store.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35rem;
+  }
+
+  .container2 .box .sub2 {
+    width: 42rem;
+    height: 16rem;
+  }
+
+  .container2 .box .sub2a {
+    align-content: center;
+    width: 45rem;
+    height: 12rem;
+  }
+
+  .container2 .box .sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  .container2 .box .sub2 h1,
+  .sub2a h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .container2 .box .sub2 p,
+  .sub2a p {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #00000099;
+  }
 }
 
 @media (max-width: 450px) {
+  /* --------------------------Container1 styling-------------------------- */
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbf6ff;
+    min-width: 100vw;
+    min-height: 30vh;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    height: 30rem;
+  }
+
+  .container1 .box h1 {
+    padding-top: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  /* --------------------------------------------container2 styling-------------------------------------------- */
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 100vw;
+    min-height: 170vh;
+  }
+
+  .container2 .cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 160rem;
+  }
+
+  .container2 .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 54rem;
+    height: 48rem;
+  }
+
+  .container2 .boz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 54rem;
+    height: 48rem;
+  }
+
+  .container2 .boxx {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    border: none;
+    width: 54rem;
+  }
+
+  .container2 .box .sub {
+    text-align: center;
+    align-content: center;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 2.4rem;
+  }
+
+  .container2 .box .sub1a {
+    background-image: url("Public/Assets/Images/AcessDenied.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .box .sub1b {
+    background-image: url("Public/Assets/Images/BlockSite.svg");
+    background-size: auto;
+    background-position: center;
+  }
+
+  .container2 .box .sub1c {
+    background-image: url("Public/Assets/Images/store.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35rem;
+  }
+
+  .container2 .box .sub2 {
+    width: 30rem;
+    height: 16rem;
+  }
+
+  .container2 .box .sub2a {
+    align-content: center;
+    width: 30rem;
+    height: 12rem;
+  }
+
+  .container2 .box .sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  .container2 .box .sub2 h1,
+  .sub2a h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .container2 .box .sub2 p,
+  .sub2a p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #00000099;
+  }
+
   footer {
     display: flex;
     justify-content: space-evenly;
