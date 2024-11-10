@@ -1067,9 +1067,9 @@ footer .box2 .set2 {
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-image: url("Public/Assets/Images/consult.jpg");
     background-position: center;
     background-size: cover;
@@ -1077,10 +1077,10 @@ footer .box2 .set2 {
 
   .container1 .box {
     display: flex;
-    justify-content: start;
-    align-items: start;
-    width: 40rem;
-    height: 50rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
   }
 
   .container1 .box .sob1 {
@@ -1088,13 +1088,13 @@ footer .box2 .set2 {
     justify-content: left;
     align-items: end;
     width: 43rem;
-    height: 37rem;
+    height: 48rem;
   }
 
   .container1 .sob1 h1 {
     display: flex;
     color: #ffffff;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .container1 .box .sub {
@@ -1112,24 +1112,24 @@ footer .box2 .set2 {
     align-items: start;
     overflow: visible;
     background: #ffffff;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
   }
 
   .container2 .overlay {
     display: flex;
     position: absolute;
-    top: -10rem;
+    top: -8rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 50rem;
+    width: 100%;
     height: 95rem;
     z-index: 1;
   }
 
   .container2 .box {
-    width: 29rem;
+    width: 49rem;
     height: 38rem;
     margin-bottom: 5rem;
     box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
@@ -1141,7 +1141,7 @@ footer .box2 .set2 {
   }
 
   .container2 .sub {
-    width: 29rem;
+    width: 100%;
     height: 28rem;
   }
 
@@ -1162,12 +1162,12 @@ footer .box2 .set2 {
     justify-content: end;
     align-items: center;
     background: #ffffff;
-    width: 28rem;
+    width: 100%;
     height: 10rem;
   }
 
   .container2 .sob p {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 1rem;
   }
@@ -1188,7 +1188,7 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 50rem;
+    width: 45rem;
     height: 200rem;
   }
 
@@ -1196,12 +1196,12 @@ footer .box2 .set2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50rem;
+    width: 100%;
     height: 10rem;
   }
 
   .container3 .sub {
-    width: 30rem;
+    width: 40rem;
   }
 
   .container3 .box1 h1 {
@@ -1216,7 +1216,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     background: #ffffff;
-    width: 30rem;
+    width: 100%;
     height: 40rem;
   }
 
@@ -1225,17 +1225,17 @@ footer .box2 .set2 {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 30rem;
-    height: 17rem;
+    width: 100%;
+    height: 19rem;
   }
 
   .container3 .box2 .sob h3 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     text-align: center;
   }
 
   .container3 .box2 .sob p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5;
     text-align: center;
     padding: 1rem;
@@ -1248,7 +1248,7 @@ footer .box2 .set2 {
     padding: 0.5rem;
     float: left;
     border-radius: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .container3 .box2 .sob a:hover {
@@ -1287,14 +1287,14 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 250vh;
+    min-height: 90vh;
   }
 
   .container4 .box1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50rem;
+    width: 100%;
     height: 10rem;
   }
 
@@ -1304,7 +1304,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     width: 30rem;
-    height: 180rem;
+    height: 110rem;
   }
 
   .container4 .box2 .sob {
@@ -1316,11 +1316,11 @@ footer .box2 .set2 {
   }
 
   .container4 .box1 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .container4 .box1 a {
-    font-size: 1.6rem;
+    font-size: 2rem;
     background: #1590ff;
     color: #ffffff;
     text-decoration: none;
@@ -1342,6 +1342,7 @@ footer .box2 .set2 {
   }
 
   .container4 .box2 .sob3 {
+    display: none;
     background-image: url("Public/Assets/Images/blessing.svg");
   }
 
@@ -1350,6 +1351,7 @@ footer .box2 .set2 {
   }
 
   .container4 .box2 .sob5 {
+    display: none;
     background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
   }
 
@@ -1537,9 +1539,611 @@ footer .box2 .set2 {
   header > ul {
     display: none;
   }
+
+  /* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
+  .container1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 70vh;
+    background-image: url("Public/Assets/Images/consult.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .container1 .box .sob1 {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    width: 43rem;
+    height: 48rem;
+  }
+
+  .container1 .sob1 h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 6rem;
+  }
+
+  .container1 .box .sub {
+    display: none;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+
+  /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
+  .container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    overflow: visible;
+    background: #ffffff;
+    min-width: 100vw;
+    min-height: 110vh;
+  }
+
+  .container2 .overlay {
+    display: flex;
+    position: absolute;
+    top: -6rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 95rem;
+    z-index: 1;
+  }
+
+  .container2 .box {
+    width: 35rem;
+    height: 45rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+  }
+
+  .container2 .sob:hover {
+    background: #f8f4f1;
+    transition: 0.5s ease;
+  }
+
+  .container2 .sub {
+    width: 100%;
+    height: 28rem;
+  }
+
+  .container2 .sub1 {
+    background-image: url("Public/Assets/Images/VirtualMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .sub2 {
+    background-image: url("Public/Assets/Images/in-personMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .sob {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 16rem;
+  }
+
+  .container2 .sob p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /*------------------------------------ container3Find providers who can help with these topics------------------------------------ */
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 230vh;
+  }
+
+  .container3 .underground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45rem;
+    height: 200rem;
+  }
+
+  .container3 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container3 .sub {
+    width: 40rem;
+  }
+
+  .container3 .box1 h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container3 .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    height: 40rem;
+  }
+
+  .container3 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 19rem;
+  }
+
+  .container3 .box2 .sob h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .container3 .box2 .sob p {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .container3 .box2 .sob a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1590ff;
+    padding: 0.5rem;
+    float: left;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .container3 .box2 .sob a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container3 .box2 .mix1 {
+    background-image: url("Public/Assets/Images/relationship.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix2 {
+    background-image: url("Public/Assets/Images/mental_health.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix3 {
+    background-image: url("Public/Assets/Images/man_looses_money.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix4 {
+    background-image: url("Public/Assets/Images/work_performance.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 160vh;
+  }
+
+  .container4 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container4 .box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 110rem;
+  }
+
+  .container4 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 22rem;
+    height: 27rem;
+  }
+
+  .container4 .box1 h1 {
+    font-size: 4rem;
+  }
+
+  .container4 .box1 a {
+    font-size: 2rem;
+    background: #1590ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .container4 .box1 a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container4 .box2 .sob1 {
+    background-image: url("Public/Assets/Images/EbereSvg.svg");
+  }
+
+  .container4 .box2 .sob2 {
+    background-image: url("Public/Assets/Images/Tony.svg");
+  }
+
+  .container4 .box2 .sob3 {
+    display: none;
+    background-image: url("Public/Assets/Images/blessing.svg");
+  }
+
+  .container4 .box2 .sob4 {
+    background-image: url("Public/Assets/Images/NgoziSvg.svg");
+  }
+
+  .container4 .box2 .sob5 {
+    display: none;
+    background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
+  }
+
+  .container4 .box2 p {
+    width: 22rem;
+    background: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 
 @media (max-width: 450px) {
+  /* ------------------------------------------Take Care Of Your Mental Health---------------------------------------------------------- */
+  .container1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 50vh;
+    background-image: url("Public/Assets/Images/consult.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container1 .box .sob1 {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    width: 35rem;
+    height: 48rem;
+  }
+
+  .container1 .sob1 h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 4rem;
+  }
+
+  .container1 .box .sub {
+    display: none;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+
+  /*---------------------------------------------------- container2 virtual meeting------------------------------------------------- */
+  .container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    overflow: visible;
+    background: #ffffff;
+    min-width: 100vw;
+    min-height: 130vh;
+  }
+
+  .container2 .overlay {
+    display: flex;
+    position: absolute;
+    top: -5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 115rem;
+    z-index: 1;
+  }
+
+  .container2 .box {
+    width: 30rem;
+    height: 50em;
+    margin-bottom: 5rem;
+    box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
+  }
+
+  .container2 .sob:hover {
+    background: #f8f4f1;
+    transition: 0.5s ease;
+  }
+
+  .container2 .sub {
+    width: 100%;
+    height: 28rem;
+  }
+
+  .container2 .sub1 {
+    background-image: url("Public/Assets/Images/VirtualMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .sub2 {
+    background-image: url("Public/Assets/Images/in-personMeeting.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container2 .sob {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 18rem;
+  }
+
+  .container2 .sob p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /*------------------------------------ container3Find providers who can help with these topics------------------------------------ */
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #3b4e68;
+    min-width: 100vw;
+    min-height: 285vh;
+  }
+
+  .container3 .underground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 250rem;
+  }
+
+  .container3 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container3 .sub {
+    width: 40rem;
+  }
+
+  .container3 .box1 h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container3 .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    height: 50rem;
+  }
+
+  .container3 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25rem;
+  }
+
+  .container3 .box2 .sob h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .container3 .box2 .sob p {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .container3 .box2 .sob a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1590ff;
+    padding: 0.5rem;
+    float: left;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .container3 .box2 .sob a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container3 .box2 .mix1 {
+    background-image: url("Public/Assets/Images/relationship.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix2 {
+    background-image: url("Public/Assets/Images/mental_health.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix3 {
+    background-image: url("Public/Assets/Images/man_looses_money.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container3 .box2 .mix4 {
+    background-image: url("Public/Assets/Images/work_performance.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*------------------------------------------------container4 Our Therapist-------------------------------------------------- */
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 160vh;
+  }
+
+  .container4 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container4 .box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 110rem;
+  }
+
+  .container4 .box2 .sob {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 22rem;
+    height: 27rem;
+  }
+
+  .container4 .box1 h1 {
+    font-size: 4rem;
+  }
+
+  .container4 .box1 a {
+    font-size: 2rem;
+    background: #1590ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .container4 .box1 a:hover {
+    background: #3b4e68;
+    transition: 0.5s ease;
+  }
+
+  .container4 .box2 .sob1 {
+    background-image: url("Public/Assets/Images/EbereSvg.svg");
+  }
+
+  .container4 .box2 .sob2 {
+    background-image: url("Public/Assets/Images/Tony.svg");
+  }
+
+  .container4 .box2 .sob3 {
+    display: none;
+    background-image: url("Public/Assets/Images/blessing.svg");
+  }
+
+  .container4 .box2 .sob4 {
+    background-image: url("Public/Assets/Images/NgoziSvg.svg");
+  }
+
+  .container4 .box2 .sob5 {
+    display: none;
+    background-image: url("Public/Assets/Images/JohnDoeSvg.svg");
+  }
+
+  .container4 .box2 p {
+    width: 22rem;
+    background: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
   footer {
     display: flex;
     justify-content: space-evenly;
