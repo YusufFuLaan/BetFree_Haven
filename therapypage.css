@@ -703,7 +703,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #3b4e68;
     width: 100vw;
-    min-height: 120vh;
+    min-height: 145vh;
   }
 
   .container3 .underground {
@@ -1180,7 +1180,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #3b4e68;
     min-width: 100vw;
-    min-height: 220vh;
+    min-height: 230vh;
   }
 
   .container3 .underground {
@@ -1205,7 +1205,7 @@ footer .box2 .set2 {
   }
 
   .container3 .box1 h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     text-align: center;
     color: #ffffff;
   }
@@ -1295,16 +1295,16 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 10rem;
+    height: 20rem;
   }
 
   .container4 .box2 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 30rem;
-    height: 110rem;
+    height: 100rem;
   }
 
   .container4 .box2 .sob {
