@@ -428,20 +428,20 @@ footer .box2 .set2 {
     align-items: center;
     background: #dbf6ff;
     min-width: 100vw;
-    min-height: 82vh;
+    min-height: 40vh;
   }
 
   .container1 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40rem;
+    width: 46rem;
     height: 30rem;
   }
 
   .container1 .box h1 {
     padding-top: 5rem;
-    font-size: 6.4rem;
+    font-size: 5rem;
     text-align: center;
   }
 
@@ -449,9 +449,9 @@ footer .box2 .set2 {
   .container2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-width: 100vw;
-    min-height: 180vh;
+    min-height: 220vh;
   }
 
   .container2 .cover {
@@ -460,7 +460,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     width: 70rem;
-    height: 130rem;
+    height: 190rem;
   }
 
   .container2 .box {
@@ -469,7 +469,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     width: 54rem;
-    height: 48rem;
+    height: 65rem;
   }
 
   .container2 .boz {
@@ -478,7 +478,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column-reverse;
     width: 54rem;
-    height: 48rem;
+    height: 60rem;
   }
 
   .container2 .boxx {
@@ -492,8 +492,8 @@ footer .box2 .set2 {
   .container2 .box .sub {
     text-align: center;
     align-content: center;
-    width: 49rem;
-    height: 24rem;
+    width: 60rem;
+    height: 30rem;
     border-radius: 2.4rem;
   }
 
@@ -513,11 +513,11 @@ footer .box2 .set2 {
     background-image: url("Public/Assets/Images/store.jpg");
     background-size: cover;
     background-position: center;
-    width: 23rem;
+    width: 28rem;
   }
 
   .container2 .box .sub2 {
-    width: 49rem;
+    width: 60rem;
     height: 16rem;
   }
 
@@ -535,12 +535,12 @@ footer .box2 .set2 {
   }
   .container2 .box .sub2 h1,
   .sub2a h1 {
-    font-size: 2.4rem;
+    font-size: 4rem;
   }
 
   .container2 .box .sub2 p,
   .sub2a p {
-    font-size: 1.81rem;
+    font-size: 3rem;
     text-align: justify;
     padding: 1rem 0;
     color: #00000099;
