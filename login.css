@@ -31,7 +31,6 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
 width: 128rem;
 height: 57.5rem;
 }
@@ -177,7 +176,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-width: 90rem;
+width: 95rem;
 height: 110rem;
 }
 
@@ -186,8 +185,148 @@ display: flex;
 justify-content: start;
 align-items: center;
 flex-direction: column;
-width:74rem;
+width:95rem;
 height:57.4rem;
+}
+
+.container1 .box1{
+background-image:url('Public/Assets/Images/Signup.svg');
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.container1 .box2 .sub1{
+display: none;
+}
+
+.container1 .box2 .sub2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+text-align: center;
+width: 64rem;
+height: 35rem;
+}
+
+.container1 .box2 .sub2 h1{
+font-size: 3.2rem;
+}
+
+.container1 .box2 .sub2 #email, #pwd{
+width: 40rem;
+height: 6rem;
+background: #E4E4E4;
+border: none;
+font-family: "Inter", sans-serif;
+border-radius: 1rem;
+padding: 1rem;
+}
+
+.container1 .box2 .sub2 #login{
+width: 10rem;
+height: 4rem;
+background: #1590FF;
+border: none;
+color: #ffffff;
+font-family: "Inter", sans-serif;
+border-radius: 1rem;
+margin: 2rem;
+}
+
+.container1 .box2 .sub2 a{
+font-size: 1.6rem;
+text-decoration: none;
+color: #000000ce;
+font-weight: 600;
+}
+.container1 .box2 .sub2 a:hover{
+color: #000000;
+}
+
+
+.container1 .box2 .sub3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+width: 64rem;
+height: 20rem;
+}
+
+.container1 .box2 .sub3 .sob{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 55rem;
+height: 5rem;
+}
+
+.container1 .box2 .sub3 .sob p{
+font-weight: 500;
+font-size: 1.6rem;
+}
+
+.container1 .box2 .sub3 .sob a {
+font-size: 1.6rem;
+text-decoration: none;
+color: #000000ce;
+font-weight: 600;
+margin: 1rem;
+}
+
+.container1 .box2 .sub3 .sob a:hover{
+color: #000000;
+}
+}
+
+@media(max-width:600px){
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 50%;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+
+.container1{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 100vw;
+min-height: 100vh;
+}
+
+.container1 .overlay{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 75rem;
+height: 110rem;
+}
+
+.container1 .box{
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+width:70rem;
+height:50rem;
 }
 
 .container1 .box1{
