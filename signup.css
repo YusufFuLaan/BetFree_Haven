@@ -177,11 +177,19 @@ border-radius: 1rem;
 display: flex;
 justify-content: center;
 align-items: center;
+min-width: 100vw;
+min-height: 100vh;
+}
+
+.container2 .overlay{
+display: flex;
+justify-content: center;
+align-items: center;
 background-image: url('Public/Assets/Images/Basic-Information-blur.jpg');
 background-size: cover;
 background-position: center;
-min-width: 100vw;
-min-height: 150vh;
+width: 125rem;
+height: 60rem;
 }
 
 .container2 .box{
@@ -189,26 +197,32 @@ display: flex;
 justify-content: start;
 align-items: center;
 flex-direction: column;
-width: 57rem;
-height: 52rem;
+width: 47rem;
+height: 42rem;
 background: #DBF6FF;
 border-radius: 5rem;
 box-shadow: 0px 6px 6px 4px #0000008C;
 }
 
-.container2 .box .sub1{
+.container2 .box .sub{
 display: flex;
 justify-content: end;
 align-items: center;
 flex-direction: column;
 background-image: url('Public/Assets/Images/welcome.png');
 background-size: contain;
-background-position: top;
+background-position: center;
 background-repeat: no-repeat;
-width: 40rem;
-height: 45rem;
+width: 30rem;
+height: 25rem;
 }
 
+.container2 .sub1{
+align-content: center;
+text-align: center;
+width: 40rem;
+height: 10rem;
+}
 .container2 .box .sub1 h1{
 font-size: 4.5rem;
 }
@@ -223,9 +237,9 @@ padding: 1rem;
 .container2 .box .sub2{
 display: flex;
 justify-content: space-between;
-align-items: center;
-width: 55rem;
-height: 5rem;
+align-items: end;
+width: 43rem;
+height: 6rem;
 }
 
 .container2 .box .sub2 a{
@@ -379,6 +393,7 @@ flex-direction: column;
 width: 75rem;
 height: 64rem;
 }
+
 .container1 .overlay .box2 input, select{
 width: 70rem;
 height: 6rem;
@@ -413,15 +428,16 @@ border-radius: 1rem;
 
 
 /* ---------------------WELCOME PAGE------------------------------- */
-.container2{
+.container2 .overlay{
 display: flex;
 justify-content: center;
 align-items: center;
-min-width: 100vw;
-min-height: 100vh;
-background-image: url('Public/Assets/Images/Basic-Information-blur.jpg');
-background-size: cover;
+background-image: url('Public/Assets/Images/Tab-Welcome.jpg');
+background-size: contain;
+background-repeat: no-repeat;
 background-position: center;
+width: 90rem;
+height: 75rem;
 }
 
 .container2 .box{
@@ -429,26 +445,32 @@ display: flex;
 justify-content: start;
 align-items: center;
 flex-direction: column;
-width: 57rem;
-height: 52rem;
+width: 47rem;
+height: 42rem;
 background: #DBF6FF;
 border-radius: 5rem;
 box-shadow: 0px 6px 6px 4px #0000008C;
 }
 
-.container2 .box .sub1{
+.container2 .box .sub{
 display: flex;
 justify-content: end;
 align-items: center;
 flex-direction: column;
 background-image: url('Public/Assets/Images/welcome.png');
 background-size: contain;
-background-position: top;
+background-position: center;
 background-repeat: no-repeat;
-width: 40rem;
-height: 45rem;
+width: 30rem;
+height: 25rem;
 }
 
+.container2 .sub1{
+align-content: center;
+text-align: center;
+width: 40rem;
+height: 10rem;
+}
 .container2 .box .sub1 h1{
 font-size: 4.5rem;
 }
@@ -458,16 +480,13 @@ font-size: 1.6rem;
 padding: 1rem;
 }
 
-
-
 .container2 .box .sub2{
 display: flex;
 justify-content: space-between;
-align-items: center;
-width: 55rem;
-height: 5rem;
+align-items: end;
+width: 43rem;
+height: 6rem;
 }
-
 .container2 .box .sub2 a{
 font-size: 1.6rem;
 color: #000000B2;
@@ -518,8 +537,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-min-width: 70rem;
-min-height: 160rem;
+min-width: 50rem;
+height: 160rem;
 }
 
 .container1 .overlay .box1{
@@ -528,7 +547,7 @@ justify-content: start;
 align-items: center;
 flex-direction: column;
 background: #DBF6FF;
-width: 70rem;
+width: 60rem;
 height: 68rem;
 }
 
@@ -575,9 +594,10 @@ margin: 2rem;
 .container1 .overlay .box2{
 display: flex;
 justify-content: space-between;
-align-items: start;
+align-items: center;
 flex-direction: column;
-width: 70rem;
+text-align: center;
+width: 60rem;
 height: 90rem;
 padding: 0.5rem;
 }
@@ -592,7 +612,7 @@ justify-content: space-around;
 align-items: start;
 flex-direction: column;
 flex-wrap: wrap;
-width: 65rem;
+width: 50rem;
 height: 80rem;
 }
 
@@ -601,7 +621,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
-width: 70rem;
+width: 50rem;
 height: 15rem;
 }
 
@@ -619,11 +639,11 @@ display: flex;
 justify-content: space-around;
 align-items: start;
 flex-direction: column;
-width: 65rem;
+width: 50rem;
 height: 64rem;
 }
 .container1 .overlay .box2 input, select{
-width: 65rem;
+width: 50rem;
 height: 6rem;
 margin: 1rem;
 padding: 1rem;
@@ -641,7 +661,7 @@ border-radius: 5rem;
 display: flex;
 justify-content: center;
 align-items: end;
-width: 70rem;
+width: 50rem;
 height: 5rem;
 }
 
@@ -655,13 +675,16 @@ border-radius: 1rem;
 }
 
 /* ---------------------WELCOME PAGE------------------------------- */
-.container2{
+.container2 .overlay{
 display: flex;
 justify-content: center;
 align-items: center;
-min-width: 100vw;
-min-height: 100vh;
-background: #0b9fc7;
+background-image: url('Public/Assets/Images/Tab-Welcome.jpg');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 60rem;
+height: 75rem;
 }
 
 .container2 .box{
@@ -669,26 +692,32 @@ display: flex;
 justify-content: start;
 align-items: center;
 flex-direction: column;
-width: 57rem;
-height: 52rem;
+width: 47rem;
+height: 42rem;
 background: #DBF6FF;
 border-radius: 5rem;
 box-shadow: 0px 6px 6px 4px #0000008C;
 }
 
-.container2 .box .sub1{
+.container2 .box .sub{
 display: flex;
 justify-content: end;
 align-items: center;
 flex-direction: column;
 background-image: url('Public/Assets/Images/welcome.png');
 background-size: contain;
-background-position: top;
+background-position: center;
 background-repeat: no-repeat;
-width: 40rem;
-height: 45rem;
+width: 30rem;
+height: 25rem;
 }
 
+.container2 .sub1{
+align-content: center;
+text-align: center;
+width: 40rem;
+height: 10rem;
+}
 .container2 .box .sub1 h1{
 font-size: 4.5rem;
 }
@@ -698,16 +727,13 @@ font-size: 1.6rem;
 padding: 1rem;
 }
 
-
-
 .container2 .box .sub2{
 display: flex;
 justify-content: space-between;
-align-items: center;
-width: 55rem;
-height: 5rem;
+align-items: end;
+width: 43rem;
+height: 6rem;
 }
-
 .container2 .box .sub2 a{
 font-size: 1.6rem;
 color: #000000B2;
