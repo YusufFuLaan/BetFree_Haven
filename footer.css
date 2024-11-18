@@ -347,13 +347,13 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     background: #3b4e68;
-    width: 100vw;
-    height: 190vh;
+    width: 130vw;
+    height: 210vh;
   }
 
   footer .box1 {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -379,7 +379,7 @@ footer .box2 .set2 {
   }
 
   footer .box1 .sub2 {
-    height: 70rem;
+    height: 60rem;
   }
 
   footer .box1 .sub4 {
