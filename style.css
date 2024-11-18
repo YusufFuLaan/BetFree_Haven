@@ -1854,12 +1854,12 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 190vh;
+    height: 210vh;
   }
 
   footer .box1 {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1881,11 +1881,15 @@ footer .box2 .set2 {
     justify-content: start;
     align-items: center;
     width: 2rem;
-    height: 20rem;
+    height: 10rem;
+  }
+
+  footer .box1 .sub1 img {
+    width: 30rem;
   }
 
   footer .box1 .sub2 {
-    height: 70rem;
+    height: 60rem;
   }
 
   footer .box1 .sub4 {
@@ -1916,10 +1920,6 @@ footer .box2 .set2 {
     transition: 0.5s ease;
   }
 
-  footer .box1 .sub1 img {
-    width: 40rem;
-  }
-
   footer .box1 .sob img:hover {
     background-color: #2e86f2;
     border-radius: 5rem;
@@ -1936,7 +1936,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     border-top: 0.1rem solid #b7c6db;
-    width: 40rem;
+    width: 100%;
     height: 10rem;
   }
 
