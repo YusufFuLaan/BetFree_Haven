@@ -347,7 +347,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     background: #3b4e68;
-    width: 130vw;
+    width: 40rem;
     height: 210vh;
   }
 
@@ -375,7 +375,11 @@ footer .box2 .set2 {
     justify-content: start;
     align-items: center;
     width: 2rem;
-    height: 20rem;
+    height: 10rem;
+  }
+
+  footer .box1 .sub1 img {
+    width: 30rem;
   }
 
   footer .box1 .sub2 {
@@ -408,10 +412,6 @@ footer .box2 .set2 {
   footer .box1 .sub a:hover {
     color: #2e86f2;
     transition: 0.5s ease;
-  }
-
-  footer .box1 .sub1 img {
-    width: 40rem;
   }
 
   footer .box1 .sob img:hover {
