@@ -1854,7 +1854,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 210vh;
+    height: 160vh;
   }
 
   footer .box1 {
@@ -1863,7 +1863,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 160rem;
+    height: 110rem;
     width: 100%;
   }
 
@@ -1873,7 +1873,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 20rem;
+    height: 10rem;
   }
 
   footer .box1 .sub1 {
@@ -1889,26 +1889,26 @@ footer .box2 .set2 {
   }
 
   footer .box1 .sub2 {
-    height: 60rem;
+    height: 30rem;
   }
 
   footer .box1 .sub4 {
-    height: 40rem;
+    height: 10rem;
   }
 
   footer .box1 .sub h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #feffff;
   }
 
   footer .box1 .sub p {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     line-height: 3;
     color: #feffff;
   }
 
   footer .box1 .sub a {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     color: #feffff;
     text-decoration: none;
     line-height: 2.5;
