@@ -53,7 +53,8 @@ li {
 .numberContainer {
   display: flex;
   justify-content: space-between;
-  width: 18rem;
+  align-items: center;
+  width: 19rem;
 }
 
 .numberContainer p {
@@ -61,17 +62,68 @@ li {
   font-size: 1.6rem;
 }
 
-#search {
-  width: 20rem;
-  height: 3rem;
-  padding-left: 4rem;
-  border-radius: 2rem;
+/* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius:2rem;
+  width:20rem;
+  color: #00000080;
+  padding: 1rem;
+  font-size: 1.6rem;
   border: none;
-  background-image: url("Public/Assets/Icons/search.svg");
-  background-repeat: no-repeat;
-  background-position: 1.5rem 0.5rem;
-  font-size: 1.4rem;
+  cursor: pointer;
 }
+
+.dropbtn1:hover {
+background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding:1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+outline: 3px solid #ddd;
+}
+
+#myInput{
+width:280px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius:1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
 
 header > ul {
   display: flex;
@@ -193,18 +245,69 @@ header > ul li a:hover {
     font-size: 1.8rem;
   }
 
-  #search {
-    width: 20rem;
-    height: 3rem;
-    padding-left: 6rem;
-    border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.6rem;
-    font-size: 1.6rem;
-  }
+ /* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius:2rem;
+  width:20rem;
+  color: #00000080;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:hover {
+background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding:1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+outline: 3px solid #ddd;
+}
+
+#myInput{
+width:280px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius:1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 
   header > ul {
     display: none;
@@ -260,18 +363,69 @@ header > ul li a:hover {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 17rem;
-    height: 2.8rem;
-    padding-left: 6rem;
-    border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
-  }
+ /* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius:2rem;
+  width:20rem;
+  color: #00000080;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:hover {
+background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding:1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+outline: 3px solid #ddd;
+}
+
+#myInput{
+width:280px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius:1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 
   header > ul {
     display: none;
@@ -382,18 +536,69 @@ header > ul li a:hover {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 23rem;
-    height: 3rem;
-    padding-left: 6rem;
-    border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
-  }
+  /* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius:2rem;
+  width:20rem;
+  color: #00000080;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:hover {
+background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding:1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+outline: 3px solid #ddd;
+}
+
+#myInput{
+width:280px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius:1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 
   header > ul {
     display: none;
@@ -443,18 +648,69 @@ header > ul li a:hover {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 20rem;
-    height: 3rem;
-    padding-left: 6rem;
-    border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
-  }
+  /* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius:2rem;
+  width:20rem;
+  color: #00000080;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:hover {
+background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding:1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+outline: 3px solid #ddd;
+}
+
+#myInput{
+width:280px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius:1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 
   header > ul {
     display: none;
