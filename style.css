@@ -293,8 +293,10 @@ main > div > img {
   color: #d9d9d9;
   text-decoration: none;
   transition: 0.5 ease;
+  cursor: pointer;
 }
 
+.unique-features-container p:hover,
 .unique-features-container a:hover {
   color: #ffffff;
 }
