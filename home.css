@@ -42,6 +42,7 @@ li {
 
 .material-symbols-outlined {
   color: #ffffff;
+  font-size: 4rem !important;
 }
 
 .contactContainer {
@@ -1684,8 +1685,8 @@ footer .box2 .set2 {
   }
 
   #search {
-    width: 17rem;
-    height: 2.6rem;
+    width: 23rem;
+    height: 3rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
@@ -1834,6 +1835,65 @@ footer .box2 .set2 {
 }
 
 @media (max-width: 450px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 5rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 23rem;
+    height: 3rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
   footer {
     display: flex;
     justify-content: space-evenly;
@@ -2145,8 +2205,8 @@ footer .box2 .set2 {
   }
 
   #search {
-    width: 17rem;
-    height: 2.6rem;
+    width: 20rem;
+    height: 3rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
