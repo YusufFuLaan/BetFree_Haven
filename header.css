@@ -275,7 +275,7 @@ outline: 3px solid #ddd;
 }
 
 #myInput{
-width:280px;
+width:24rem;
 }
 
 .dropdown1 {
@@ -287,7 +287,7 @@ width:280px;
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  min-width: 28rem;
+  min-width: 24rem;
   overflow: auto;
   margin: 1rem;
   font-size: 1.5rem;
@@ -393,7 +393,7 @@ outline: 3px solid #ddd;
 }
 
 #myInput{
-width:280px;
+width:20rem;
 }
 
 .dropdown1 {
@@ -405,7 +405,7 @@ width:280px;
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  min-width: 28rem;
+  min-width: 20rem;
   overflow: auto;
   margin: 1rem;
   font-size: 1.5rem;
@@ -678,7 +678,7 @@ outline: 3px solid #ddd;
 }
 
 #myInput{
-width:280px;
+width:20rem;
 }
 
 .dropdown1 {
@@ -690,7 +690,7 @@ width:280px;
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  min-width: 28rem;
+  min-width: 10rem;
   overflow: auto;
   margin: 1rem;
   font-size: 1.5rem;
