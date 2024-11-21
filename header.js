@@ -1,4 +1,3 @@
-"use strict"
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -17,3 +16,4 @@ function myFunction() {
       }
     }
   }
+  console.log(filterFunction);
