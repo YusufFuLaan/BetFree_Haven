@@ -35,13 +35,18 @@
             <img src="Public/Assets/Icons/phone.svg" alt="" />
             <p>+234 123 2346 707</p>
           </div>
-          <div class="searchContainer">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Search"
-            />
+
+<div class="dropdown1">
+  <button onclick="myFunction()" class="dropbtn1"><i class="fa fa-search"></i> Search</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search for..." id="myInput" onkeyup="filterFunction()">
+    <a href="about">About</a>
+    <a href="#base">Therapist</a>
+    <a href="#blog">Personalization</a>
+    <a href="#contact">Self assessment</a>
+    <a href="#custom">Self limit</a>
+  </div>
+</div>
           </div>
         </div>
       </div>
@@ -84,6 +89,7 @@
         <li><a class="login" href="login.html">Login</a></li>
       </ul>
     </header>
+
 
 <section class="container1">
     <div class="box">
@@ -128,15 +134,15 @@
       </div>
 
       <div class="sub sub2">
-        <h1>Useful Links</h1>
-        <a href="#">About</a>
-        <a href="#">Resources</a>
-        <a href="#">Kit</a>
-        <a href="assessment.html">Awareness</a>
-        <a href="facilitator.html"> Get Involved</a>
-        <a href="therapypage.html">Find Support</a>
-        <a href="#">Donate</a>
-      </div>
+          <h1>Useful Links</h1>
+          <a href="#">About</a>
+          <a href="assessment.html">Awareness</a>
+          <a href="technical.html">Resources Kit</a>
+          <a href="personalization.html">Personalization</a>
+          <a href="facilitator.html"> Get Involved</a>
+          <a href="therapypage.html">Find Support</a>
+          <a href="#">Donate</a>
+        </div>
 
       <div class="sub sub3">
         <h1>Contact</h1>
@@ -165,6 +171,8 @@
       </div>
     </div>
   </footer>
+<script src="header.js">
 
+</script>
     </body>
     </html>
