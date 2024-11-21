@@ -42,6 +42,7 @@ li {
 
 .material-symbols-outlined {
   color: #ffffff;
+  font-size: 4rem !important;
 }
 
 .contactContainer {
@@ -285,10 +286,19 @@ main > div > img {
   padding: 1.3rem;
 }
 
-.unique-features-container p {
+.unique-features-container p,
+.unique-features-container a {
   font-size: 2rem;
   text-align: center;
   color: #d9d9d9;
+  text-decoration: none;
+  transition: 0.5 ease;
+  cursor: pointer;
+}
+
+.unique-features-container p:hover,
+.unique-features-container a:hover {
+  color: #ffffff;
 }
 
 /*---------------------------------------------------------- Gamblin-Effect-Section-Style-------------------------------------------------------------- */
@@ -509,7 +519,7 @@ footer {
   align-items: center;
   flex-direction: column;
   background: #3b4e68;
-  min-width: 100vw;
+  min-width: 98vw;
   min-height: 56.6vh;
 }
 
@@ -809,7 +819,8 @@ footer .box2 .set2 {
     padding: 1.3rem;
   }
 
-  .unique-features-container p {
+  .unique-features-container p,
+  .unique-features-container a {
     font-size: 1.8rem;
     text-align: center;
     color: #d9d9d9;
@@ -1321,7 +1332,8 @@ footer .box2 .set2 {
     padding: 1.3rem;
   }
 
-  .unique-features-container p {
+  .unique-features-container p,
+  .unique-features-container a {
     font-size: 1.5rem;
     text-align: center;
     color: #d9d9d9;
@@ -1697,8 +1709,8 @@ footer .box2 .set2 {
   }
 
   #search {
-    width: 17rem;
-    height: 2.6rem;
+    width: 23rem;
+    height: 3rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
@@ -1753,7 +1765,8 @@ footer .box2 .set2 {
     padding: 1.3rem;
   }
 
-  .unique-features-container p {
+  .unique-features-container p,
+  .unique-features-container a {
     font-size: 1.5rem;
   }
 
@@ -1847,6 +1860,65 @@ footer .box2 .set2 {
 }
 
 @media (max-width: 450px) {
+  .logoContainer {
+    padding: 2rem;
+    width: 85vw;
+  }
+
+  .subheaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #3b4e68;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    color: #ffffff;
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 5rem;
+  }
+
+  .numberContainer {
+    display: none;
+  }
+
+  .numberContainer img {
+    width: 1.7rem;
+  }
+
+  .numberContainer p {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+
+  #search {
+    width: 23rem;
+    height: 3rem;
+    padding-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: url("Public/Assets/Icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: 1.5rem 0.7rem;
+    background-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  header > ul {
+    display: none;
+  }
+
   footer {
     display: flex;
     justify-content: space-evenly;
@@ -1854,16 +1926,16 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 190vh;
+    height: 160vh;
   }
 
   footer .box1 {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 160rem;
+    height: 110rem;
     width: 100%;
   }
 
@@ -1873,7 +1945,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 20rem;
+    height: 10rem;
   }
 
   footer .box1 .sub1 {
@@ -1881,30 +1953,34 @@ footer .box2 .set2 {
     justify-content: start;
     align-items: center;
     width: 2rem;
-    height: 20rem;
+    height: 10rem;
+  }
+
+  footer .box1 .sub1 img {
+    width: 30rem;
   }
 
   footer .box1 .sub2 {
-    height: 70rem;
+    height: 30rem;
   }
 
   footer .box1 .sub4 {
-    height: 40rem;
+    height: 10rem;
   }
 
   footer .box1 .sub h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #feffff;
   }
 
   footer .box1 .sub p {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     line-height: 3;
     color: #feffff;
   }
 
   footer .box1 .sub a {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     color: #feffff;
     text-decoration: none;
     line-height: 2.5;
@@ -1914,10 +1990,6 @@ footer .box2 .set2 {
   footer .box1 .sub a:hover {
     color: #2e86f2;
     transition: 0.5s ease;
-  }
-
-  footer .box1 .sub1 img {
-    width: 40rem;
   }
 
   footer .box1 .sob img:hover {
@@ -1936,7 +2008,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     border-top: 0.1rem solid #b7c6db;
-    width: 40rem;
+    width: 100%;
     height: 10rem;
   }
 
@@ -2015,7 +2087,8 @@ footer .box2 .set2 {
     padding: 1.3rem;
   }
 
-  .unique-features-container p {
+  .unique-features-container p,
+  .unique-features-container a {
     font-size: 1.5rem;
   }
 
@@ -2053,10 +2126,9 @@ footer .box2 .set2 {
 
   .story {
     width: 90vw;
-
     padding: 2rem;
     line-height: 2;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .story-teller {
@@ -2158,8 +2230,8 @@ footer .box2 .set2 {
   }
 
   #search {
-    width: 17rem;
-    height: 2.6rem;
+    width: 20rem;
+    height: 3rem;
     padding-left: 6rem;
     border-radius: 2rem;
     border: none;
@@ -2228,7 +2300,8 @@ footer .box2 .set2 {
     padding: 1.3rem;
   }
 
-  .unique-features-container p {
+  .unique-features-container p,
+  .unique-features-container a {
     font-size: 1.5rem;
   }
 
@@ -2267,7 +2340,7 @@ footer .box2 .set2 {
   .story {
     padding: 2rem;
     line-height: 2;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width: 90vw;
   }
 
