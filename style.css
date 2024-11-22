@@ -380,6 +380,7 @@ main > div > img {
 .story-teller {
   align-self: flex-start;
   margin-left: 12rem;
+  margin-top: 2.5rem;
   font-size: 1.6rem;
   font-weight: 600;
 }
