@@ -62,16 +62,73 @@ li {
   font-size: 1.6rem;
 }
 
-#search {
+/* ----------search-------------------- */
+.dropbtn1 {
+  background-color: #ffffff;
+  border-radius: 2rem;
   width: 20rem;
   height: 3rem;
-  padding-left: 4rem;
-  border-radius: 2rem;
+  color: #00000080;
+  font-size: 1.6rem;
   border: none;
-  background-image: url("Public/Assets/Icons/search.svg");
-  background-repeat: no-repeat;
-  background-position: 1.5rem 0.5rem;
-  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.dropbtn1:hover,
+.dropbtn1:focus {
+  background-color: #ffffff;
+}
+
+#myInput {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-bottom: 0.3rem solid #ddd;
+}
+
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+
+#myInput {
+  width: 28rem;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 28rem;
+  overflow: hidden;
+  margin: 1rem;
+  height: 30rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius: 1rem;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
 
 header > ul {
@@ -101,6 +158,20 @@ header > ul li a:hover {
 
 .fa-solid {
   padding-left: 0.8rem;
+}
+
+.login {
+  padding: 1rem;
+  border-radius: 2.5rem 6rem;
+  color: #ffffff;
+  background-color: #1590ff;
+  font-size: 1.4rem;
+}
+
+.login:hover {
+  background-color: #ffffff;
+  color: #1590ff;
+  font-weight: bold;
 }
 
 .header-dropdown {
@@ -161,17 +232,17 @@ main > article > p {
   font-size: 1.6rem;
 }
 
-main > article > button {
+main > article > p > a {
   font-size: 1.6rem;
+  text-decoration: none;
   padding: 1rem;
   width: 20rem;
-  border: none;
   background-color: #1590ff;
   color: #ffffff;
   transition: 0.5s ease;
 }
 
-main > article > button:hover {
+main > article > p > a:hover {
   background-color: #3b4e68;
   cursor: pointer;
 }
@@ -317,17 +388,18 @@ main > div > img {
   font-size: 1.6rem;
 }
 
-.gambling-effect-section > article > button {
+.gambling-effect-section > article > p > a {
   font-size: 1.6rem;
   padding: 1.2rem;
   width: 12rem;
   border: none;
   background-color: #1590ff;
   color: #ffffff;
+  text-decoration: none;
   transition: 0.5s ease;
 }
 
-.gambling-effect-section > article > button:hover {
+.gambling-effect-section > article > p > a:hover {
   background-color: #3b4e68;
   cursor: pointer;
 }
@@ -401,20 +473,19 @@ main > div > img {
   text-align: center;
 }
 
-.therapist-section > button {
+.therapist-section > p > a {
   font-size: 1.6rem;
+  text-decoration: none;
   padding: 1.2rem;
-  width: 12rem;
   border: none;
   background-color: #1590ff;
   color: #ffffff;
   transition: 0.5s ease;
 }
 
-.therapist-section > button:hover {
+.therapist-section > p > a:hover {
   background-color: #3b4e68;
   cursor: pointer;
-  width: 15rem;
 }
 
 /*---------------------------------------------------------- Subcribe-Section-Style-------------------------------------------------------------- */
@@ -635,17 +706,73 @@ footer .box2 .set2 {
     font-size: 1.8rem;
   }
 
-  #search {
-    width: 20rem;
-    height: 3rem;
-    padding-left: 6rem;
+  /* ----------search-------------------- */
+  .dropbtn1 {
+    background-color: #ffffff;
     border-radius: 2rem;
-    border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.6rem;
+    width: 20rem;
+    height: 3.5rem;
+    color: #00000080;
     font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn1:hover,
+  .dropbtn1:focus {
+    background-color: #ffffff;
+  }
+
+  #myInput {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: 0.3rem solid #ddd;
+  }
+
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+
+  #myInput {
+    width: 23rem;
+  }
+
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 23rem;
+    overflow: hidden;
+    margin: 1rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 
   header > ul {
@@ -1149,17 +1276,73 @@ footer .box2 .set2 {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 17rem;
-    height: 2.8rem;
-    padding-left: 6rem;
+  /* ----------search-------------------- */
+  .dropbtn1 {
+    background-color: #ffffff;
     border-radius: 2rem;
+    width: 20rem;
+    height: 3.5rem;
+    color: #00000080;
+    font-size: 1.6rem;
     border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .dropbtn1:hover,
+  .dropbtn1:focus {
+    background-color: #ffffff;
+  }
+
+  #myInput {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: 0.3rem solid #ddd;
+  }
+
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+
+  #myInput {
+    width: 23rem;
+  }
+
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 23rem;
+    overflow: hidden;
+    margin: 1rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 
   header > ul {
@@ -1684,17 +1867,73 @@ footer .box2 .set2 {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 23rem;
-    height: 3rem;
-    padding-left: 6rem;
+  /* ----------search-------------------- */
+  .dropbtn1 {
+    background-color: #ffffff;
     border-radius: 2rem;
+    width: 20rem;
+    height: 3.5rem;
+    color: #00000080;
+    font-size: 1.6rem;
     border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .dropbtn1:hover,
+  .dropbtn1:focus {
+    background-color: #ffffff;
+  }
+
+  #myInput {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: 0.3rem solid #ddd;
+  }
+
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+
+  #myInput {
+    width: 22rem;
+  }
+
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 22rem;
+    overflow: hidden;
+    margin: 1rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 
   header > ul {
@@ -1877,17 +2116,73 @@ footer .box2 .set2 {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 23rem;
-    height: 3rem;
-    padding-left: 6rem;
+  /* ----------search-------------------- */
+  .dropbtn1 {
+    background-color: #ffffff;
     border-radius: 2rem;
+    width: 20rem;
+    height: 3.5rem;
+    color: #00000080;
+    font-size: 1.6rem;
     border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .dropbtn1:hover,
+  .dropbtn1:focus {
+    background-color: #ffffff;
+  }
+
+  #myInput {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: 0.3rem solid #ddd;
+  }
+
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+
+  #myInput {
+    width: 20rem;
+  }
+
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 20rem;
+    overflow: hidden;
+    margin: 1rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 
   header > ul {
@@ -2204,17 +2499,73 @@ footer .box2 .set2 {
     font-size: 1.6rem;
   }
 
-  #search {
-    width: 20rem;
-    height: 3rem;
-    padding-left: 6rem;
+  /* ----------search-------------------- */
+  .dropbtn1 {
+    background-color: #ffffff;
     border-radius: 2rem;
+    width: 20rem;
+    height: 3.5rem;
+    color: #00000080;
+    font-size: 1.6rem;
     border: none;
-    background-image: url("Public/Assets/Icons/search.svg");
-    background-repeat: no-repeat;
-    background-position: 1.5rem 0.7rem;
-    background-size: 1.5rem;
-    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .dropbtn1:hover,
+  .dropbtn1:focus {
+    background-color: #ffffff;
+  }
+
+  #myInput {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: 0.3rem solid #ddd;
+  }
+
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+
+  #myInput {
+    width: 20rem;
+  }
+
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 20rem;
+    overflow: hidden;
+    margin: 1rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 
   header > ul {
