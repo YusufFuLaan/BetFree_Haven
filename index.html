@@ -37,23 +37,36 @@
             <img src="Public/Assets/Icons/phone.svg" alt="" />
             <p>+234 123 2346 707</p>
           </div>
-          <div class="searchContainer">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Search"
-            />
+
+<div class="dropdown1">
+  <button onclick="myFunction()" class="dropbtn1"><i class="fa fa-search"></i> Search</button>
+  <div id="myDropdown" class="dropdown-content1">
+    <input type="text" placeholder="Search for...A-Z" id="myInput" onkeyup="filterFunction()">
+    <a href="about">About</a>
+    <a href="about">Become a facilitator</a>
+    <a href="about">Helpline</a>
+    <a href="about">How gambling affect your life</a>
+    <a href="about">Local support group</a>
+    <a href="about">Online support group</a>
+    <a href="#blog">Personalization</a>
+    <a href="#contact">Self assessment</a>
+    <a href="#custom">Self limit</a>
+    <a href="#custom">Sign of gambling harm</a>
+    <a href="#base">Therapy</a>
+    <a href="#base">Technical measures</a>
+  </div>
+</div>
           </div>
         </div>
       </div>
 
+
       <ul>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#">About</a></li>
         <li class="header-dropdown">
           <a href="">Awareness <i class="fa-solid fa-angle-down"></i></a>
           <div class="header-dropdown-content">
-            <a href="gamblingeffect.html">How gambling affects your life</a>
+            <a href="#">How gambling affects your life</a>
             <a href="#">Sign of gambling harm</a>
             <a href="assessment.html">Self assessment</a>
           </div>
@@ -69,7 +82,7 @@
         <li class="header-dropdown">
           <a href="">Find Support <i class="fa-solid fa-angle-down"></i></a>
           <div class="header-dropdown-content">
-            <a href="livechat.html">Live Chat</a>
+            <a href="#">Life Chat</a>
             <a href="#">Helpline</a>
             <a href="#">Online Support Groups</a>
             <a href="#">Local Support Groups</a>
@@ -296,5 +309,6 @@
         </div>
       </div>
     </footer>
+    <script src="header.js"></script>
   </body>
 </html>
