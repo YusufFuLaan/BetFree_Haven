@@ -252,6 +252,7 @@ border-radius: 2.5rem;
 
 .container2 .box2 input{
 width: 20rem;
+height: 3rem;
 border: none;
 }
 
@@ -540,6 +541,7 @@ border-radius: 2.5rem;
 .container2 .box2 input{
 width: 20rem;
 border: none;
+height: 3rem;
 }
 
 .container2 .box2 .fa-map-marker{
@@ -826,6 +828,7 @@ text-decoration: none;
     
     .container2 .box2 input{
     width: 20rem;
+    height: 3rem;
     border: none;
     }
     
