@@ -1293,13 +1293,13 @@ footer .box2 .set2 {
     overflow: visible;
     background: #ffffff;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 130vh;
   }
 
   .container2 .overlay {
     display: flex;
     position: absolute;
-    top: -8rem;
+    top: -4rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -1360,7 +1360,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #3b4e68;
     min-width: 100vw;
-    min-height: 230vh;
+    min-height: 270vh;
   }
 
   .container3 .underground {
@@ -1550,7 +1550,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 190vh;
+    height: 210vh;
   }
 
   footer .box1 {
@@ -1830,18 +1830,18 @@ footer .box2 .set2 {
     overflow: visible;
     background: #ffffff;
     min-width: 100vw;
-    min-height: 110vh;
+    min-height: 140vh;
   }
 
   .container2 .overlay {
     display: flex;
     position: absolute;
-    top: -6rem;
+    top: -4rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 95rem;
+    height: 105rem;
     z-index: 1;
   }
 
@@ -1884,7 +1884,7 @@ footer .box2 .set2 {
   }
 
   .container2 .sob p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     padding: 1rem;
   }
@@ -1897,7 +1897,7 @@ footer .box2 .set2 {
     align-items: center;
     background: #3b4e68;
     min-width: 100vw;
-    min-height: 230vh;
+    min-height: 270vh;
   }
 
   .container3 .underground {
@@ -2004,7 +2004,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 160vh;
+    min-height: 190vh;
   }
 
   .container4 .box1 {
@@ -2208,7 +2208,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: flex-start;
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     background-image: url("Public/Assets/Images/consult.jpg");
     background-position: center;
     background-size: cover;
@@ -2227,13 +2227,13 @@ footer .box2 .set2 {
     justify-content: left;
     align-items: end;
     width: 35rem;
-    height: 48rem;
+    height: 30rem;
   }
 
   .container1 .sob1 h1 {
     display: flex;
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .container1 .box .sub {
@@ -2252,24 +2252,24 @@ footer .box2 .set2 {
     overflow: visible;
     background: #ffffff;
     min-width: 100vw;
-    min-height: 130vh;
+    min-height: 120vh;
   }
 
   .container2 .overlay {
     display: flex;
     position: absolute;
-    top: -5rem;
+    top: -3rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 115rem;
+    height: 95rem;
     z-index: 1;
   }
 
   .container2 .box {
     width: 30rem;
-    height: 50em;
+    height: 40em;
     margin-bottom: 5rem;
     box-shadow: 0 0.3rem 0.3rem 0rem #3b4e68;
   }
@@ -2302,11 +2302,11 @@ footer .box2 .set2 {
     align-items: center;
     background: #ffffff;
     width: 100%;
-    height: 18rem;
+    height: 12rem;
   }
 
   .container2 .sob p {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: 1rem;
   }
@@ -2319,7 +2319,7 @@ footer .box2 .set2 {
     align-items: flex-start;
     background: #3b4e68;
     min-width: 100vw;
-    min-height: 285vh;
+    min-height: 270vh;
   }
 
   .container3 .underground {
@@ -2328,7 +2328,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     width: 30rem;
-    height: 250rem;
+    height: 210rem;
   }
 
   .container3 .box1 {
@@ -2356,7 +2356,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #ffffff;
     width: 100%;
-    height: 50rem;
+    height: 40rem;
   }
 
   .container3 .box2 .sob {
@@ -2365,16 +2365,16 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 25rem;
+    height: 20rem;
   }
 
   .container3 .box2 .sob h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .container3 .box2 .sob p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
     padding: 1rem;
@@ -2426,7 +2426,7 @@ footer .box2 .set2 {
     align-items: center;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 160vh;
+    min-height: 170vh;
   }
 
   .container4 .box1 {
@@ -2443,15 +2443,15 @@ footer .box2 .set2 {
     align-items: center;
     flex-wrap: wrap;
     width: 30rem;
-    height: 110rem;
+    height: 100rem;
   }
 
   .container4 .box2 .sob {
     display: flex;
     justify-content: space-around;
     align-items: end;
-    width: 22rem;
-    height: 27rem;
+    width: 20rem;
+    height: 25rem;
   }
 
   .container4 .box1 h1 {
