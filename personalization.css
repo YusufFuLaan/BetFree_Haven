@@ -987,7 +987,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 190vh;
+    height: 210vh;
   }
 
   footer .box1 {
@@ -1216,6 +1216,111 @@ footer .box2 .set2 {
   header > ul {
     display: none;
   }
+
+  /* --------------------------Container1 styling-------------------------- */
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbf6ff;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37rem;
+    height: 69rem;
+  }
+
+  .container1 .box h1 {
+    padding-top: 5rem;
+    font-size: 6.4rem;
+    text-align: center;
+  }
+
+  /* --------------------------------------------container2 styling-------------------------------------------- */
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 210vh;
+  }
+
+  .container2 .cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 180rem;
+  }
+
+  .container2 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 36rem;
+    height: 35rem;
+  }
+
+  .container2 .box .sub {
+    text-align: center;
+    align-content: center;
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .container2 .box .sub img {
+    width: 50%;
+  }
+
+  .container2 .box .sub1a {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1b {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1c {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1d {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub2 {
+    width: 36rem;
+    height: 16rem;
+  }
+  .container2 .box .sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .container2 .box .sub2 h1 {
+    font-size: 2rem;
+  }
+
+  .container2 .box .sub2 p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    color: #00000099;
+  }
 }
 
 @media (max-width: 450px) {
@@ -1335,6 +1440,111 @@ footer .box2 .set2 {
   }
   header > ul {
     display: none;
+  }
+
+  /* --------------------------Container1 styling-------------------------- */
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbf6ff;
+    min-width: 100vw;
+    min-height: 40vh;
+  }
+
+  .container1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container1 .box h1 {
+    padding-top: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  /* --------------------------------------------container2 styling-------------------------------------------- */
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 210vh;
+  }
+
+  .container2 .cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 160rem;
+  }
+
+  .container2 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 36rem;
+    height: 35rem;
+  }
+
+  .container2 .box .sub {
+    text-align: center;
+    align-content: center;
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .container2 .box .sub img {
+    width: 50%;
+  }
+
+  .container2 .box .sub1a {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1b {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1c {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub1d {
+    background: #d9d9d9;
+    border-radius: 10rem;
+  }
+
+  .container2 .box .sub2 {
+    width: 30rem;
+    height: 16rem;
+  }
+  .container2 .box .sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .container2 .box .sub2 h1 {
+    font-size: 2rem;
+  }
+
+  .container2 .box .sub2 p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    color: #00000099;
   }
 
   footer {
