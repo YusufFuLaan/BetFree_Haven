@@ -937,7 +937,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: flex-start;
     min-width: 100vw;
-    min-height: 170vh;
+    min-height: 220vh;
   }
 
   .container2 .cover {
@@ -1040,7 +1040,7 @@ footer .box2 .set2 {
     flex-direction: column;
     background: #3b4e68;
     width: 100vw;
-    height: 190vh;
+    height: 210vh;
   }
 
   footer .box1 {
@@ -1301,7 +1301,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: flex-start;
     min-width: 100vw;
-    min-height: 170vh;
+    min-height: 220vh;
   }
 
   .container2 .cover {
@@ -1538,7 +1538,7 @@ footer .box2 .set2 {
 
   .container1 .box h1 {
     padding-top: 5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -1548,7 +1548,7 @@ footer .box2 .set2 {
     justify-content: center;
     align-items: flex-start;
     min-width: 100vw;
-    min-height: 170vh;
+    min-height: 210vh;
   }
 
   .container2 .cover {
@@ -1589,8 +1589,8 @@ footer .box2 .set2 {
   .container2 .box .sub {
     text-align: center;
     align-content: center;
-    width: 30rem;
-    height: 20rem;
+    width: 28rem;
+    height: 18rem;
     border-radius: 2.4rem;
   }
 
@@ -1610,7 +1610,7 @@ footer .box2 .set2 {
     background-image: url("Public/Assets/Images/store.jpg");
     background-size: cover;
     background-position: center;
-    width: 35rem;
+    width: 30rem;
   }
 
   .container2 .box .sub2 {
@@ -1632,13 +1632,13 @@ footer .box2 .set2 {
   }
   .container2 .box .sub2 h1,
   .sub2a h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .container2 .box .sub2 p,
   .sub2a p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: 1rem 0;
     color: #00000099;
