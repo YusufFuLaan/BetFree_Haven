@@ -251,7 +251,16 @@
         </p>
         <form>
           <input type="email" placeholder="Email address" id="email" />
-          <input type="button" name="" id="subscribe" value="Subscribe" />
+          <input type="button" name="" id="subscribe" value="Subscribe" onclick="location.href='#popup'" />
+
+          <div id="popup" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <!-- Close button -->
+        <h2>Thank you for subscribing</h2>
+        <p>You are now subscribed to our newsletter. You will hear from us shortly.</p>
+      </div>
+    </div>
         </form>
       </article>
     </section>
